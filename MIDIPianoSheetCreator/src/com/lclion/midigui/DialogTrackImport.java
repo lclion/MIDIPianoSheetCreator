@@ -208,9 +208,16 @@ public class DialogTrackImport extends JDialog
 				
 			}
 		};
-		classInitialiserWorker.execute();
+		//classInitialiserWorker.execute();
 		
+		midiParser = new MIDIParser(file);
+		midiParser.retrieveMidiData(null);
+		
+		// MIDI Player setup (to preview selected tracks)
+		midiPlayer = new MIDIPlayer(file);
+		midiPlayer.printPatchList();
 
+		continueInit();
 	}
 
 
@@ -916,7 +923,7 @@ public class DialogTrackImport extends JDialog
 				buttonPane.add(cancelButton);
 			}
 		}
-		setVisible(true);
+		//setVisible(true);
 	}
 
 	public int getSelectedButton()

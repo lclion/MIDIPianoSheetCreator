@@ -927,7 +927,7 @@ public class JFrameMIDIPianoSheetCreator extends JFrame
 				tpKeyEditor.setEnabled(true);
 
 				JFileChooser fileChooserDialogueSave = new JFileChooser(lastDirectory)
-				{ // Copy paste from stack overflow, thank you kmindi
+				{ // Copy paste from stack overflow, code by kmindi
 					public void approveSelection()
 					{
 						File f = getSelectedFile();
