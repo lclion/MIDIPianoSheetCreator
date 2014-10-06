@@ -1,0 +1,17 @@
+<map id="initButtonPlay" name="initButtonPlay">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a876c0699cfeae70f84fc508a4b05b6c0" title="com.lclion.midiplayer.MIDIPlayer.is\lRunning" alt="" coords="181,5,407,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a318c504fc464b620e829b6ed354cc922" title="com.lclion.midiplayer.MIDIPlayer.get\lTickLength" alt="" coords="177,71,411,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a0bafa31e350020787d811f3697dceb86" title="com.lclion.midiplayer.MIDIPlayer.playMIDI" alt="" coords="161,137,427,163"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a6f0d774251274a44de6466408b9d0193" title="com.lclion.midiplayer.MIDIPlayer.set\lInstrument" alt="" coords="480,155,713,196"/>
+<area shape="rect" id="node6" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a4e64895a61273ddd850ecdc7e7f1d639" title="com.lclion.midiplayer.MIDIPlayer.get\lCurrentTick" alt="" coords="177,239,411,280"/>
+<area shape="rect" id="node7" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#aa9a3932117bdd0743daac84c2ca8e19a" title="com.lclion.midiparser.MIDIParser.get\lTriggerTimeSize" alt="" coords="177,304,411,345"/>
+<area shape="rect" id="node8" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a36449f95958a9f33a6bf44945252e2d7" title="com.lclion.midiparser.MIDIParser.get\lNextTriggerTime" alt="" coords="177,369,411,411"/>
+<area shape="rect" id="node9" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard.html#ae11e61d422e0ffcfde71c2c8d22e8125" title="com.lclion.midigui.Dialog\lOnScreenKeyboard.highlightKeys" alt="" coords="185,435,403,476"/>
+<area shape="rect" id="node12" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a4669a62a8b0a61ee7cb351639cd5d357" title="com.lclion.midiparser.MIDIParser.get\lNextTriggerNote" alt="" coords="177,500,411,541"/>
+<area shape="rect" id="node13" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a31f82d1e457f59ee2e2b76781cf77998" title="com.lclion.midigui.Dialog\lTrackImport.isColourise" alt="" coords="211,565,377,607"/>
+<area shape="rect" id="node14" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a43e0304f725fff9064639507536d7203" title="com.lclion.midiplayer.MIDIPlayer.stopMIDI" alt="" coords="161,631,427,658"/>
+<area shape="rect" id="node15" href="$classcom_1_1lclion_1_1midiparser_1_1_note_colour_converter.html#a1182e71888040b74469d2a6329c0e363" title="com.lclion.midiparser.Note\lColourConverter.ColouriseNotes" alt="" coords="191,683,397,724"/>
+<area shape="rect" id="node16" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a0d9aa818aac57f70d4d9a27cb08aa68a" title="com.lclion.midiplayer.MIDIPlayer.pauseMIDI" alt="" coords="156,749,432,775"/>
+<area shape="rect" id="node10" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard.html#ae91f8f91ce33c821d70b3d5e09c08cc7" title="com.lclion.midigui.Dialog\lOnScreenKeyboard.updateCurrent\lNoteLabel" alt="" coords="487,391,707,447"/>
+<area shape="rect" id="node11" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard.html#ae2176f8320d6a67ec81ce53e3b0df321" title="com.lclion.midigui.Dialog\lOnScreenKeyboard.clearHighlights" alt="" coords="485,472,709,513"/>
+</map>

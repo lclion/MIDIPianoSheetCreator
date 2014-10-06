@@ -1,0 +1,26 @@
+<map id="DialogTrackImport" name="DialogTrackImport">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a6356cc4e4568eaf610999c4b32431749" title="com.lclion.midiparser.MIDIParser.retrieve\lMidiData" alt="" coords="180,100,439,141"/>
+<area shape="rect" id="node6" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a43e0304f725fff9064639507536d7203" title="com.lclion.midiplayer.MIDIPlayer.stopMIDI" alt="" coords="491,515,758,542"/>
+<area shape="rect" id="node7" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a6b4104bceabf350464cc74e4d9babcb1" title="com.lclion.midiplayer.MIDIPlayer.print\lPatchList" alt="" coords="189,749,429,791"/>
+<area shape="rect" id="node8" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a8d5ad9e40f8a718ad1a74d164c9c89cd" title="setupImportListing" alt="" coords="245,358,373,385"/>
+<area shape="rect" id="node14" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a9c00c1196a6593faccf3e71ee4ba7c84" title="com.lclion.midiplayer.MIDIPlayer.get\lTracks" alt="" coords="193,815,426,856"/>
+<area shape="rect" id="node15" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#ab5f5b7d46d664f092c40a045618402b5" title="setupPreviewPlayer" alt="" coords="242,698,377,725"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a0a6214124c40fd0db497cbdd73cf3a32" title="com.lclion.midiparser.MIDIParser.get\lTimeSignature" alt="" coords="507,5,742,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a32e1f8f0f14a58552e8972fc6e02da30" title="com.lclion.midiparser.MIDIParser.set\lTimeSignature" alt="" coords="507,71,742,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a1a6947c3e60f6f74022834f05b71d8b3" title="com.lclion.midiparser.MIDIParser.parseData" alt="" coords="487,137,763,163"/>
+<area shape="rect" id="node9" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a5344cfe20b2847e6b1126b799c03e54e" title="com.lclion.midiparser.MIDIParser.get\lTotalTrackEventsNumber" alt="" coords="507,319,742,360"/>
+<area shape="rect" id="node10" href="$classcom_1_1lclion_1_1midiparser_1_1_patch_converter.html#a6b0d3c53592bd1ab882a7ff96c1f368e" title="com.lclion.midiparser.Patch\lConverter.getPatchName" alt="" coords="533,384,716,425"/>
+<area shape="rect" id="node11" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a9ea2bab3f45e0b74eba2c08c635d4866" title="com.lclion.midiparser.MIDIParser.get\lPatchNumber" alt="" coords="507,188,742,229"/>
+<area shape="rect" id="node12" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a273586a96562827374d3167a6f844bf1" title="com.lclion.midiplayer.MIDIPlayer.unmute\lTrack" alt="" coords="495,253,754,295"/>
+<area shape="rect" id="node13" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a5ea586ca69152e093de72efaa30035ab" title="com.lclion.midiplayer.MIDIPlayer.mute\lTrack" alt="" coords="503,449,747,491"/>
+<area shape="rect" id="node16" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#adf42fe0a3253b9d6fed0dea0aba77cb4" title="com.lclion.midiplayer.MIDIPlayer.setTick" alt="" coords="496,1011,753,1038"/>
+<area shape="rect" id="node17" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a318c504fc464b620e829b6ed354cc922" title="com.lclion.midiplayer.MIDIPlayer.get\lTickLength" alt="" coords="508,1063,741,1104"/>
+<area shape="rect" id="node18" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#aaa7385baef162e66f5dd608c345dda8d" title="com.lclion.midiparser.MIDIParser.get\lEventTriggerTime" alt="" coords="507,1128,742,1169"/>
+<area shape="rect" id="node19" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a876c0699cfeae70f84fc508a4b05b6c0" title="com.lclion.midiplayer.MIDIPlayer.is\lRunning" alt="" coords="512,567,737,608"/>
+<area shape="rect" id="node20" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a32f4912c0d576586a49ecce3a41709e8" title="com.lclion.midiplayer.MIDIPlayer.unmute\lAllTracks" alt="" coords="495,632,754,673"/>
+<area shape="rect" id="node21" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a0bafa31e350020787d811f3697dceb86" title="com.lclion.midiplayer.MIDIPlayer.playMIDI" alt="" coords="492,698,757,725"/>
+<area shape="rect" id="node22" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a25947e3c729a3eb6a7701dae3634b9b6" title="com.lclion.midiparser.MIDIParser.retrieve\lTracksEvents" alt="" coords="495,749,754,791"/>
+<area shape="rect" id="node23" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#aa9a3932117bdd0743daac84c2ca8e19a" title="com.lclion.midiparser.MIDIParser.get\lTriggerTimeSize" alt="" coords="507,815,742,856"/>
+<area shape="rect" id="node24" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a36449f95958a9f33a6bf44945252e2d7" title="com.lclion.midiparser.MIDIParser.get\lNextTriggerTime" alt="" coords="507,880,742,921"/>
+<area shape="rect" id="node25" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a4e64895a61273ddd850ecdc7e7f1d639" title="com.lclion.midiplayer.MIDIPlayer.get\lCurrentTick" alt="" coords="508,945,741,987"/>
+</map>

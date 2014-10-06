@@ -1,0 +1,799 @@
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator}{\section{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator Class Reference}
+\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator}\index{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+}
+
+
+The main window of the software.  
+
+
+
+
+Collaboration diagram for J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Package Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7344d98b77fcf456e4333719d4e4a34}{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8512e0e195013a23bdecce9bfb93b04c}{init\+Dialogs} ()
+\begin{DoxyCompactList}\small\item\em Initialise dialogs related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a27d3ba5afb772cc36c9a432c28975ace}{init\+Buttons} ()
+\begin{DoxyCompactList}\small\item\em Initialise buttons related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2f0269651e213406c54a93a303ef9154}{init\+Button\+Stop} ()
+\begin{DoxyCompactList}\small\item\em Initialise the Stop Button and it's event listener. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0251cff1964f088409b3bcb5811f4bc7}{init\+Button\+Play} ()
+\begin{DoxyCompactList}\small\item\em Initialise the Play Button and it's event listener. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64517851bfe923ade6f59648b3a9f4e3}{init\+Progress\+Sliders} ()
+\begin{DoxyCompactList}\small\item\em Initialise sliders related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af5b3b9751934a25e7d0b73cf458cea99}{init\+Text\+Pane} ()
+\begin{DoxyCompactList}\small\item\em Initialise text panes related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab462219e37674c0df3744f7de1c980ca}{word\+Wrap\+On} ()
+\begin{DoxyCompactList}\small\item\em Wordwrap On for text panes related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a42f3eed8a1306302bdebd9dea75883c5}{word\+Wrap\+Off} ()
+\begin{DoxyCompactList}\small\item\em Wordwrap Off for text panes related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0b0e9cd41d19d9cb52443c381a519994}{init\+Menu\+Bar} ()
+\begin{DoxyCompactList}\small\item\em Initialise Menu Bars related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a098b454223f052d378bd20af06f6ddf0}{init\+Menu\+Help} ()
+\begin{DoxyCompactList}\small\item\em Initialise Menu Help related to this window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48db1e242ba2acdb007ab6e8f5c245c6}{init\+Menu\+File} ()
+\begin{DoxyCompactList}\small\item\em Initialise the menus in the main window. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2b96b6ece7e72836a6e472f85951e297}{init\+Mntm\+Save} ()
+\begin{DoxyCompactList}\small\item\em Menu to save the parsed piano sheet to text file (notepad's .txt file format) \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a6de8f8799e0b919151dd7d602565c867}{init\+Mntm\+Open} ()
+\begin{DoxyCompactList}\small\item\em Menu to open a M\+I\+D\+I File. \end{DoxyCompactList}\item 
+Swing\+Worker$<$ String, Void $>$ \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aae03cd254fec1d9f47948ce62a294baf}{setup\+Swing\+Worker\+M\+I\+D\+I\+Parse} (final File file)
+\begin{DoxyCompactList}\small\item\em Returns the Swing\+Worker required to handle M\+I\+D\+I Parsing (Swing\+Worker prevents G\+U\+I freezing) \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a69eddc42278f45218c12c51637b36d34}{init\+Menu\+Font\+Family} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a508329abe82be4cf7842ca7c468f18c8}{init\+Menu\+Font\+Size} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a200519724ded34307a2e8c0cd6497a56}{init\+Menu\+Instruments} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae7bd958cecc96a4e5d1ea09834b6d0ef}{change\+Instrument} (int patch\+Num)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab26c4708edb6e0b42d4988caf68b1ec0}{deselect\+Instrument\+Menu} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acb131a460e9412367d53ee82a9375859}{deselect\+Font\+Size\+Menu} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a9af7c5fe9801b9b06b53613d2ccd2238}{deselect\+Font\+Family\+Menu} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af20c88021968d70d8665d3664e95a849}{disable\+New\+Folder\+Button} (Container c)
+\begin{DoxyCompactList}\small\item\em Disables the \char`\"{}\+New Folder\char`\"{} button when opening files (as it is not necessary) Source\+: java2s.\+com. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+J\+Panel \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aee369a2eca6b8f16ea106cddf68273e8}{content\+Pane} = null
+\item 
+J\+Text\+Pane \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa98315e1a5633a11870e6166725b4cd7}{tp\+Key\+Editor}
+\item 
+J\+Scroll\+Pane \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a19fb25d7d050c69ae47f8f492b4de4c8}{sp\+Key\+Editor}
+\item 
+J\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a625ff9936388c864f91a9da3da016101}{mntm\+Save}
+\item 
+J\+Progress\+Bar \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3fdd66f1536341b66a7bdb456ab2569f}{progress\+Bar}
+\item 
+J\+Slider \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8f1c2180a937d6483a4912d602dfe023}{slider\+Time}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aea8fe6af9c54e5d6f1a837809e7e316c}{lbl\+Speed}
+\item 
+J\+Spinner \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2679c1a277ffcf00ff91ae8bfa676442}{spinner\+Speed}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8501b39c874b5ed02e4c630f78aa5de5}{lbl\+Volume}
+\item 
+J\+Slider \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a71f41e4a3f136fb318fb088bd4695dc2}{slider\+Volume}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa1718d1d474c9cc2c8f72edef9c6d767}{btn\+Play}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3e498460ccccf41b258ee18a8ea8d988}{btn\+Stop}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser}{M\+I\+D\+I\+Parser} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aba18751017d64d85cea94d280c8e9dc0}{midi\+Parser} = null
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player}{M\+I\+D\+I\+Player} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab4562caaf138ca21b1013043d3eb158d}{midi\+Player} = null
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiparser_1_1_note_colour_converter}{Note\+Colour\+Converter} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab210fa766a5aec2702de6587366989b9}{note\+Colour\+Converter} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae989d6c379f0d116f3811a9d7793e30b}{open\+File\+Name} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a1b15f968588be7e6da8f0ffd1c04e6a4}{dir\+File\+Name} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a7053fe76095c389b7bbc6d22f2ba5b21}{last\+Directory} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a62123d133e7e491e26258033b8b08822}{current\+Font} = \char`\"{}Verdana\char`\"{}
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a7f8543b687b957a013ba58ffdd9449f2}{current\+Font\+Size} = 12
+\item 
+Timer \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a172d0561900ff10f21cbf9562fa3c261}{autoplay\+Timer} = null
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa6ae8f708b6cde0c380df6aea7059360}{current\+Patch\+Num} = -\/1
+\item 
+J\+Menu\+Bar \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a654581aa0d77b3f6860722adc9d9fc1d}{menu\+Bar}
+\item 
+J\+Menu \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_adc23b01d38b600ce897d16e596c2b868}{mn\+Font}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acf27febb9f46a2cb5b78ecb7e283e243}{chckbxmntm\+Acoustic\+Grand\+Piano}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aafdf4f78ebd2521a1ec7f34e1e06e4a9}{chckbxmntm\+Bright\+Acoustic\+Piano}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ade34b598a3fb7ba9a61e9b2b7687ad9e}{chckbxmntm\+Electric\+Grand\+Piano}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ac9819205c38c3591401116984553387e}{chckbxmntm\+Use\+Midi\+Default}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab59060cc1aaa1acf916f717203b8c8bd}{chckbxmntm\+Honky\+Tonk\+Piano}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2a76124f85968992b142ad2d9fc78c73}{chckbxmntm\+Electric\+Piano1}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64bf84906a571db4297425d89fd61dbd}{chckbxmntm\+Electric\+Piano2}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ad63305d8ca6fab38cf74a892d780461c}{chckbxmntm\+Harpsichord}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a1eba3e74979ed3e70114af6927e625a4}{chckbxmntm\+Clavinet}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae16ca66c315ae28ba7b99aad21ad5e09}{mntm\+Size\+\_\+8}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3c49956bedee4fd23f4986f598da688c}{mntm\+Size\+\_\+10}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ada6afb80750b1367cbb4dc4acae49f4b}{mntm\+Size\+\_\+12}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_afe11959823d15698b8ef79c701d24705}{mntm\+Size\+\_\+14}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ad753490ecc6eb30372c7e8a4d9bce319}{mntm\+Size\+\_\+16}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae3c577e710806d61ed05df0bc8be487b}{mntm\+Size\+\_\+18}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a97a4d037ea3a2b0a556280f5fc90fc01}{mntm\+Size\+\_\+24}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a325e2a4cd1cd58269d9f8b3957a09710}{mntm\+Size\+\_\+36}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8aadd2c41e4cca1d9cd36676f10a7b4c}{mntm\+Size\+\_\+48}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acd08c18bd1a4b76d59dc747cc2cb416a}{mntm\+Lucida\+Console}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7eb8b768edb92241a98e41f17cd6570}{mntm\+Tahoma}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a05f0a24d3f92ed2dbbfe7eced7c05b12}{mntm\+Verdana}
+\item 
+J\+Check\+Box\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa9eb27d5b6fea0c0835a299547f1d676}{mntm\+Segoe\+Ui}
+\item 
+J\+Menu \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a5bdad6dc2b9da47a45a0a6b1454b85ed}{mn\+View}
+\item 
+J\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab94476c50fe222e692fa9339ac3ec45f}{mntm\+Colour\+Note\+Values}
+\item 
+J\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a772d6e85bb1207eda7775a39e8b8d2a7}{mntm\+Onscreen\+Keyboard}
+\item 
+J\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a41b99c6291375c2f6ca410c5819d0c26}{mntm\+Onscreen\+Piano}
+\item 
+J\+Menu \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48cc7fde4429ea728b772b1c8ef965df}{mn\+File}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static J\+Frame \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acbbeb368af441422247853ca2d6641c4}{frame\+Holder} = null
+\item 
+static J\+Menu\+Item \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a96b3e2db6919b4449aca72fc9a20b980}{mntm\+Open}
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_about}{Dialog\+About} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a047d953d878b28ab2a2807642ea76766}{dialog\+About} = null
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences}{Dialog\+Preferences} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab8f21a3b29b7b03f47d37ab0be98d7a5}{dialog\+Preferences} = null
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_track_import}{Dialog\+Track\+Import} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a779c5b2f4e1dcc94515f3e174380101c}{dialog\+Track\+Import} = null
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_colour_reference}{Dialog\+Colour\+Reference} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab5e923b68d49fe2353d6b88660db06d5}{dialog\+Colour\+Reference} = null
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard}{Dialog\+On\+Screen\+Keyboard} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a381bf6ccecb17ef281f31251e09e2a10}{dialog\+On\+Screen\+Keyboard} = null
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_piano}{Dialog\+On\+Screen\+Piano} \hyperlink{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a03a695600b98ed60aef1c2d5339abcf9}{dialog\+On\+Screen\+Piano} = null
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The main window of the software. 
+
+Initialises all of G\+U\+I Java Swing components as well as other Dialog Classes.
+
+Some components have Event Listeners which includes the code logic in them.
+
+\begin{DoxyAuthor}{Author}
+L\+C Lion 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7344d98b77fcf456e4333719d4e4a34}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\index{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [package]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7344d98b77fcf456e4333719d4e4a34}
+Constructor that initialises all G\+U\+I components and it's Event Listeners.
+
+This class is run under Java Swing's Event Dispatch Thread, and is not thread safe.
+
+Use Swing\+Worker class to do lengthy operations, else the G\+U\+I will freeze. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7344d98b77fcf456e4333719d4e4a34_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae7bd958cecc96a4e5d1ea09834b6d0ef}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!change\+Instrument@{change\+Instrument}}
+\index{change\+Instrument@{change\+Instrument}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{change\+Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void change\+Instrument (
+\begin{DoxyParamCaption}
+\item[{int}]{patch\+Num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae7bd958cecc96a4e5d1ea09834b6d0ef}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae7bd958cecc96a4e5d1ea09834b6d0ef_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a9af7c5fe9801b9b06b53613d2ccd2238}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!deselect\+Font\+Family\+Menu@{deselect\+Font\+Family\+Menu}}
+\index{deselect\+Font\+Family\+Menu@{deselect\+Font\+Family\+Menu}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{deselect\+Font\+Family\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}void deselect\+Font\+Family\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a9af7c5fe9801b9b06b53613d2ccd2238}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acb131a460e9412367d53ee82a9375859}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!deselect\+Font\+Size\+Menu@{deselect\+Font\+Size\+Menu}}
+\index{deselect\+Font\+Size\+Menu@{deselect\+Font\+Size\+Menu}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{deselect\+Font\+Size\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}void deselect\+Font\+Size\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acb131a460e9412367d53ee82a9375859}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab26c4708edb6e0b42d4988caf68b1ec0}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!deselect\+Instrument\+Menu@{deselect\+Instrument\+Menu}}
+\index{deselect\+Instrument\+Menu@{deselect\+Instrument\+Menu}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{deselect\+Instrument\+Menu}]{\setlength{\rightskip}{0pt plus 5cm}void deselect\+Instrument\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab26c4708edb6e0b42d4988caf68b1ec0}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af20c88021968d70d8665d3664e95a849}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!disable\+New\+Folder\+Button@{disable\+New\+Folder\+Button}}
+\index{disable\+New\+Folder\+Button@{disable\+New\+Folder\+Button}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{disable\+New\+Folder\+Button}]{\setlength{\rightskip}{0pt plus 5cm}static void disable\+New\+Folder\+Button (
+\begin{DoxyParamCaption}
+\item[{Container}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af20c88021968d70d8665d3664e95a849}
+
+
+Disables the \char`\"{}\+New Folder\char`\"{} button when opening files (as it is not necessary) Source\+: java2s.\+com. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The container which has the component needed to search and disable the \char`\"{}\+New Folder\char`\"{} button \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0251cff1964f088409b3bcb5811f4bc7}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Button\+Play@{init\+Button\+Play}}
+\index{init\+Button\+Play@{init\+Button\+Play}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Button\+Play}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Button\+Play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0251cff1964f088409b3bcb5811f4bc7}
+
+
+Initialise the Play Button and it's event listener. 
+
+Plays the current M\+I\+D\+I File loaded.
+
+The action listener for this button also triggers the auto highlighting feature on the textpane. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0251cff1964f088409b3bcb5811f4bc7_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a27d3ba5afb772cc36c9a432c28975ace}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Buttons@{init\+Buttons}}
+\index{init\+Buttons@{init\+Buttons}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Buttons}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Buttons (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a27d3ba5afb772cc36c9a432c28975ace}
+
+
+Initialise buttons related to this window. 
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a27d3ba5afb772cc36c9a432c28975ace_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2f0269651e213406c54a93a303ef9154}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Button\+Stop@{init\+Button\+Stop}}
+\index{init\+Button\+Stop@{init\+Button\+Stop}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Button\+Stop}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Button\+Stop (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2f0269651e213406c54a93a303ef9154}
+
+
+Initialise the Stop Button and it's event listener. 
+
+Stops the M\+I\+D\+I playback, the autoplay\+Timer and sets G\+U\+I components to the stop state.
+
+\begin{DoxySeeAlso}{See also}
+autoplay\+Timers 
+\end{DoxySeeAlso}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2f0269651e213406c54a93a303ef9154_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8512e0e195013a23bdecce9bfb93b04c}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Dialogs@{init\+Dialogs}}
+\index{init\+Dialogs@{init\+Dialogs}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Dialogs}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Dialogs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8512e0e195013a23bdecce9bfb93b04c}
+
+
+Initialise dialogs related to this window. 
+
+Also sets G\+U\+I location relative to the main window \hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0b0e9cd41d19d9cb52443c381a519994}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Menu\+Bar@{init\+Menu\+Bar}}
+\index{init\+Menu\+Bar@{init\+Menu\+Bar}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Menu\+Bar}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Menu\+Bar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0b0e9cd41d19d9cb52443c381a519994}
+
+
+Initialise Menu Bars related to this window. 
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a0b0e9cd41d19d9cb52443c381a519994_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48db1e242ba2acdb007ab6e8f5c245c6}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Menu\+File@{init\+Menu\+File}}
+\index{init\+Menu\+File@{init\+Menu\+File}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Menu\+File}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Menu\+File (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48db1e242ba2acdb007ab6e8f5c245c6}
+
+
+Initialise the menus in the main window. 
+
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48db1e242ba2acdb007ab6e8f5c245c6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a69eddc42278f45218c12c51637b36d34}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Menu\+Font\+Family@{init\+Menu\+Font\+Family}}
+\index{init\+Menu\+Font\+Family@{init\+Menu\+Font\+Family}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Menu\+Font\+Family}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Menu\+Font\+Family (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a69eddc42278f45218c12c51637b36d34}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a508329abe82be4cf7842ca7c468f18c8}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Menu\+Font\+Size@{init\+Menu\+Font\+Size}}
+\index{init\+Menu\+Font\+Size@{init\+Menu\+Font\+Size}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Menu\+Font\+Size}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Menu\+Font\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a508329abe82be4cf7842ca7c468f18c8}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a508329abe82be4cf7842ca7c468f18c8_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a098b454223f052d378bd20af06f6ddf0}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Menu\+Help@{init\+Menu\+Help}}
+\index{init\+Menu\+Help@{init\+Menu\+Help}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Menu\+Help}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Menu\+Help (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a098b454223f052d378bd20af06f6ddf0}
+
+
+Initialise Menu Help related to this window. 
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a200519724ded34307a2e8c0cd6497a56}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Menu\+Instruments@{init\+Menu\+Instruments}}
+\index{init\+Menu\+Instruments@{init\+Menu\+Instruments}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Menu\+Instruments}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Menu\+Instruments (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a200519724ded34307a2e8c0cd6497a56}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a200519724ded34307a2e8c0cd6497a56_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a6de8f8799e0b919151dd7d602565c867}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Mntm\+Open@{init\+Mntm\+Open}}
+\index{init\+Mntm\+Open@{init\+Mntm\+Open}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Mntm\+Open}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Mntm\+Open (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a6de8f8799e0b919151dd7d602565c867}
+
+
+Menu to open a M\+I\+D\+I File. 
+
+Opens M\+I\+D\+I File by calling a file chooser, and setting up necessary options for it using Dialog Import Options.
+
+Also sets up an Event listener and a Swing\+Worker when parsing M\+I\+D\+I File
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_track_import}{Dialog\+Track\+Import} 
+\end{DoxySeeAlso}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a6de8f8799e0b919151dd7d602565c867_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2b96b6ece7e72836a6e472f85951e297}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Mntm\+Save@{init\+Mntm\+Save}}
+\index{init\+Mntm\+Save@{init\+Mntm\+Save}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Mntm\+Save}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Mntm\+Save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2b96b6ece7e72836a6e472f85951e297}
+
+
+Menu to save the parsed piano sheet to text file (notepad's .txt file format) 
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64517851bfe923ade6f59648b3a9f4e3}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Progress\+Sliders@{init\+Progress\+Sliders}}
+\index{init\+Progress\+Sliders@{init\+Progress\+Sliders}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Progress\+Sliders}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Progress\+Sliders (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64517851bfe923ade6f59648b3a9f4e3}
+
+
+Initialise sliders related to this window. 
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64517851bfe923ade6f59648b3a9f4e3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af5b3b9751934a25e7d0b73cf458cea99}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!init\+Text\+Pane@{init\+Text\+Pane}}
+\index{init\+Text\+Pane@{init\+Text\+Pane}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{init\+Text\+Pane}]{\setlength{\rightskip}{0pt plus 5cm}void init\+Text\+Pane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af5b3b9751934a25e7d0b73cf458cea99}
+
+
+Initialise text panes related to this window. 
+
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_af5b3b9751934a25e7d0b73cf458cea99_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aae03cd254fec1d9f47948ce62a294baf}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!setup\+Swing\+Worker\+M\+I\+D\+I\+Parse@{setup\+Swing\+Worker\+M\+I\+D\+I\+Parse}}
+\index{setup\+Swing\+Worker\+M\+I\+D\+I\+Parse@{setup\+Swing\+Worker\+M\+I\+D\+I\+Parse}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{setup\+Swing\+Worker\+M\+I\+D\+I\+Parse}]{\setlength{\rightskip}{0pt plus 5cm}Swing\+Worker$<$String, Void$>$ setup\+Swing\+Worker\+M\+I\+D\+I\+Parse (
+\begin{DoxyParamCaption}
+\item[{final File}]{file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aae03cd254fec1d9f47948ce62a294baf}
+
+
+Returns the Swing\+Worker required to handle M\+I\+D\+I Parsing (Swing\+Worker prevents G\+U\+I freezing) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & The M\+I\+D\+I file to parse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Swing\+Worker The Swing\+Worker that handles the actual midi\+Parsing operations 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aae03cd254fec1d9f47948ce62a294baf_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a42f3eed8a1306302bdebd9dea75883c5}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!word\+Wrap\+Off@{word\+Wrap\+Off}}
+\index{word\+Wrap\+Off@{word\+Wrap\+Off}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{word\+Wrap\+Off}]{\setlength{\rightskip}{0pt plus 5cm}void word\+Wrap\+Off (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a42f3eed8a1306302bdebd9dea75883c5}
+
+
+Wordwrap Off for text panes related to this window. 
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab462219e37674c0df3744f7de1c980ca}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!word\+Wrap\+On@{word\+Wrap\+On}}
+\index{word\+Wrap\+On@{word\+Wrap\+On}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{word\+Wrap\+On}]{\setlength{\rightskip}{0pt plus 5cm}void word\+Wrap\+On (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab462219e37674c0df3744f7de1c980ca}
+
+
+Wordwrap On for text panes related to this window. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a172d0561900ff10f21cbf9562fa3c261}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!autoplay\+Timer@{autoplay\+Timer}}
+\index{autoplay\+Timer@{autoplay\+Timer}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{autoplay\+Timer}]{\setlength{\rightskip}{0pt plus 5cm}Timer autoplay\+Timer = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a172d0561900ff10f21cbf9562fa3c261}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa1718d1d474c9cc2c8f72edef9c6d767}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!btn\+Play@{btn\+Play}}
+\index{btn\+Play@{btn\+Play}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{btn\+Play}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Play\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa1718d1d474c9cc2c8f72edef9c6d767}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3e498460ccccf41b258ee18a8ea8d988}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!btn\+Stop@{btn\+Stop}}
+\index{btn\+Stop@{btn\+Stop}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{btn\+Stop}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Stop\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3e498460ccccf41b258ee18a8ea8d988}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acf27febb9f46a2cb5b78ecb7e283e243}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Acoustic\+Grand\+Piano@{chckbxmntm\+Acoustic\+Grand\+Piano}}
+\index{chckbxmntm\+Acoustic\+Grand\+Piano@{chckbxmntm\+Acoustic\+Grand\+Piano}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Acoustic\+Grand\+Piano}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Acoustic\+Grand\+Piano\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acf27febb9f46a2cb5b78ecb7e283e243}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aafdf4f78ebd2521a1ec7f34e1e06e4a9}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Bright\+Acoustic\+Piano@{chckbxmntm\+Bright\+Acoustic\+Piano}}
+\index{chckbxmntm\+Bright\+Acoustic\+Piano@{chckbxmntm\+Bright\+Acoustic\+Piano}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Bright\+Acoustic\+Piano}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Bright\+Acoustic\+Piano\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aafdf4f78ebd2521a1ec7f34e1e06e4a9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a1eba3e74979ed3e70114af6927e625a4}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Clavinet@{chckbxmntm\+Clavinet}}
+\index{chckbxmntm\+Clavinet@{chckbxmntm\+Clavinet}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Clavinet}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Clavinet\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a1eba3e74979ed3e70114af6927e625a4}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ade34b598a3fb7ba9a61e9b2b7687ad9e}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Electric\+Grand\+Piano@{chckbxmntm\+Electric\+Grand\+Piano}}
+\index{chckbxmntm\+Electric\+Grand\+Piano@{chckbxmntm\+Electric\+Grand\+Piano}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Electric\+Grand\+Piano}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Electric\+Grand\+Piano\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ade34b598a3fb7ba9a61e9b2b7687ad9e}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2a76124f85968992b142ad2d9fc78c73}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Electric\+Piano1@{chckbxmntm\+Electric\+Piano1}}
+\index{chckbxmntm\+Electric\+Piano1@{chckbxmntm\+Electric\+Piano1}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Electric\+Piano1}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Electric\+Piano1\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2a76124f85968992b142ad2d9fc78c73}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64bf84906a571db4297425d89fd61dbd}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Electric\+Piano2@{chckbxmntm\+Electric\+Piano2}}
+\index{chckbxmntm\+Electric\+Piano2@{chckbxmntm\+Electric\+Piano2}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Electric\+Piano2}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Electric\+Piano2\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a64bf84906a571db4297425d89fd61dbd}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ad63305d8ca6fab38cf74a892d780461c}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Harpsichord@{chckbxmntm\+Harpsichord}}
+\index{chckbxmntm\+Harpsichord@{chckbxmntm\+Harpsichord}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Harpsichord}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Harpsichord\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ad63305d8ca6fab38cf74a892d780461c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab59060cc1aaa1acf916f717203b8c8bd}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Honky\+Tonk\+Piano@{chckbxmntm\+Honky\+Tonk\+Piano}}
+\index{chckbxmntm\+Honky\+Tonk\+Piano@{chckbxmntm\+Honky\+Tonk\+Piano}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Honky\+Tonk\+Piano}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Honky\+Tonk\+Piano\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab59060cc1aaa1acf916f717203b8c8bd}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ac9819205c38c3591401116984553387e}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!chckbxmntm\+Use\+Midi\+Default@{chckbxmntm\+Use\+Midi\+Default}}
+\index{chckbxmntm\+Use\+Midi\+Default@{chckbxmntm\+Use\+Midi\+Default}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{chckbxmntm\+Use\+Midi\+Default}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item chckbxmntm\+Use\+Midi\+Default\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ac9819205c38c3591401116984553387e}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aee369a2eca6b8f16ea106cddf68273e8}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!content\+Pane@{content\+Pane}}
+\index{content\+Pane@{content\+Pane}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{content\+Pane}]{\setlength{\rightskip}{0pt plus 5cm}J\+Panel content\+Pane = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aee369a2eca6b8f16ea106cddf68273e8}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a62123d133e7e491e26258033b8b08822}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!current\+Font@{current\+Font}}
+\index{current\+Font@{current\+Font}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{current\+Font}]{\setlength{\rightskip}{0pt plus 5cm}String current\+Font = \char`\"{}Verdana\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a62123d133e7e491e26258033b8b08822}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a7f8543b687b957a013ba58ffdd9449f2}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!current\+Font\+Size@{current\+Font\+Size}}
+\index{current\+Font\+Size@{current\+Font\+Size}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{current\+Font\+Size}]{\setlength{\rightskip}{0pt plus 5cm}int current\+Font\+Size = 12\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a7f8543b687b957a013ba58ffdd9449f2}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa6ae8f708b6cde0c380df6aea7059360}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!current\+Patch\+Num@{current\+Patch\+Num}}
+\index{current\+Patch\+Num@{current\+Patch\+Num}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{current\+Patch\+Num}]{\setlength{\rightskip}{0pt plus 5cm}int current\+Patch\+Num = -\/1\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa6ae8f708b6cde0c380df6aea7059360}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a047d953d878b28ab2a2807642ea76766}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dialog\+About@{dialog\+About}}
+\index{dialog\+About@{dialog\+About}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dialog\+About}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+About} dialog\+About = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a047d953d878b28ab2a2807642ea76766}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab5e923b68d49fe2353d6b88660db06d5}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dialog\+Colour\+Reference@{dialog\+Colour\+Reference}}
+\index{dialog\+Colour\+Reference@{dialog\+Colour\+Reference}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dialog\+Colour\+Reference}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+Colour\+Reference} dialog\+Colour\+Reference = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab5e923b68d49fe2353d6b88660db06d5}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a381bf6ccecb17ef281f31251e09e2a10}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dialog\+On\+Screen\+Keyboard@{dialog\+On\+Screen\+Keyboard}}
+\index{dialog\+On\+Screen\+Keyboard@{dialog\+On\+Screen\+Keyboard}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dialog\+On\+Screen\+Keyboard}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+On\+Screen\+Keyboard} dialog\+On\+Screen\+Keyboard = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a381bf6ccecb17ef281f31251e09e2a10}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a03a695600b98ed60aef1c2d5339abcf9}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dialog\+On\+Screen\+Piano@{dialog\+On\+Screen\+Piano}}
+\index{dialog\+On\+Screen\+Piano@{dialog\+On\+Screen\+Piano}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dialog\+On\+Screen\+Piano}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+On\+Screen\+Piano} dialog\+On\+Screen\+Piano = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a03a695600b98ed60aef1c2d5339abcf9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab8f21a3b29b7b03f47d37ab0be98d7a5}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dialog\+Preferences@{dialog\+Preferences}}
+\index{dialog\+Preferences@{dialog\+Preferences}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dialog\+Preferences}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+Preferences} dialog\+Preferences = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab8f21a3b29b7b03f47d37ab0be98d7a5}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a779c5b2f4e1dcc94515f3e174380101c}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dialog\+Track\+Import@{dialog\+Track\+Import}}
+\index{dialog\+Track\+Import@{dialog\+Track\+Import}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dialog\+Track\+Import}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+Track\+Import} dialog\+Track\+Import = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a779c5b2f4e1dcc94515f3e174380101c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a1b15f968588be7e6da8f0ffd1c04e6a4}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!dir\+File\+Name@{dir\+File\+Name}}
+\index{dir\+File\+Name@{dir\+File\+Name}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{dir\+File\+Name}]{\setlength{\rightskip}{0pt plus 5cm}String dir\+File\+Name = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a1b15f968588be7e6da8f0ffd1c04e6a4}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acbbeb368af441422247853ca2d6641c4}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!frame\+Holder@{frame\+Holder}}
+\index{frame\+Holder@{frame\+Holder}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{frame\+Holder}]{\setlength{\rightskip}{0pt plus 5cm}J\+Frame frame\+Holder = null\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acbbeb368af441422247853ca2d6641c4}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a7053fe76095c389b7bbc6d22f2ba5b21}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!last\+Directory@{last\+Directory}}
+\index{last\+Directory@{last\+Directory}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{last\+Directory}]{\setlength{\rightskip}{0pt plus 5cm}String last\+Directory = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a7053fe76095c389b7bbc6d22f2ba5b21}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aea8fe6af9c54e5d6f1a837809e7e316c}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!lbl\+Speed@{lbl\+Speed}}
+\index{lbl\+Speed@{lbl\+Speed}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{lbl\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+Speed\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aea8fe6af9c54e5d6f1a837809e7e316c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8501b39c874b5ed02e4c630f78aa5de5}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!lbl\+Volume@{lbl\+Volume}}
+\index{lbl\+Volume@{lbl\+Volume}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{lbl\+Volume}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+Volume\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8501b39c874b5ed02e4c630f78aa5de5}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a654581aa0d77b3f6860722adc9d9fc1d}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!menu\+Bar@{menu\+Bar}}
+\index{menu\+Bar@{menu\+Bar}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{menu\+Bar}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu\+Bar menu\+Bar\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a654581aa0d77b3f6860722adc9d9fc1d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aba18751017d64d85cea94d280c8e9dc0}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!midi\+Parser@{midi\+Parser}}
+\index{midi\+Parser@{midi\+Parser}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{midi\+Parser}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+I\+D\+I\+Parser} midi\+Parser = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aba18751017d64d85cea94d280c8e9dc0}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab4562caaf138ca21b1013043d3eb158d}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!midi\+Player@{midi\+Player}}
+\index{midi\+Player@{midi\+Player}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{midi\+Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+I\+D\+I\+Player} midi\+Player = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab4562caaf138ca21b1013043d3eb158d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48cc7fde4429ea728b772b1c8ef965df}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mn\+File@{mn\+File}}
+\index{mn\+File@{mn\+File}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mn\+File}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu mn\+File\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a48cc7fde4429ea728b772b1c8ef965df}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_adc23b01d38b600ce897d16e596c2b868}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mn\+Font@{mn\+Font}}
+\index{mn\+Font@{mn\+Font}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mn\+Font}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu mn\+Font\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_adc23b01d38b600ce897d16e596c2b868}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab94476c50fe222e692fa9339ac3ec45f}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Colour\+Note\+Values@{mntm\+Colour\+Note\+Values}}
+\index{mntm\+Colour\+Note\+Values@{mntm\+Colour\+Note\+Values}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Colour\+Note\+Values}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu\+Item mntm\+Colour\+Note\+Values\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab94476c50fe222e692fa9339ac3ec45f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acd08c18bd1a4b76d59dc747cc2cb416a}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Lucida\+Console@{mntm\+Lucida\+Console}}
+\index{mntm\+Lucida\+Console@{mntm\+Lucida\+Console}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Lucida\+Console}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Lucida\+Console\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_acd08c18bd1a4b76d59dc747cc2cb416a}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a772d6e85bb1207eda7775a39e8b8d2a7}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Onscreen\+Keyboard@{mntm\+Onscreen\+Keyboard}}
+\index{mntm\+Onscreen\+Keyboard@{mntm\+Onscreen\+Keyboard}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Onscreen\+Keyboard}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu\+Item mntm\+Onscreen\+Keyboard\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a772d6e85bb1207eda7775a39e8b8d2a7}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a41b99c6291375c2f6ca410c5819d0c26}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Onscreen\+Piano@{mntm\+Onscreen\+Piano}}
+\index{mntm\+Onscreen\+Piano@{mntm\+Onscreen\+Piano}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Onscreen\+Piano}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu\+Item mntm\+Onscreen\+Piano\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a41b99c6291375c2f6ca410c5819d0c26}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a96b3e2db6919b4449aca72fc9a20b980}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Open@{mntm\+Open}}
+\index{mntm\+Open@{mntm\+Open}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Open}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu\+Item mntm\+Open\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a96b3e2db6919b4449aca72fc9a20b980}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a625ff9936388c864f91a9da3da016101}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Save@{mntm\+Save}}
+\index{mntm\+Save@{mntm\+Save}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Save}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu\+Item mntm\+Save\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a625ff9936388c864f91a9da3da016101}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa9eb27d5b6fea0c0835a299547f1d676}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Segoe\+Ui@{mntm\+Segoe\+Ui}}
+\index{mntm\+Segoe\+Ui@{mntm\+Segoe\+Ui}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Segoe\+Ui}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Segoe\+Ui\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa9eb27d5b6fea0c0835a299547f1d676}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3c49956bedee4fd23f4986f598da688c}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+10@{mntm\+Size\+\_\+10}}
+\index{mntm\+Size\+\_\+10@{mntm\+Size\+\_\+10}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+10}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+10\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3c49956bedee4fd23f4986f598da688c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ada6afb80750b1367cbb4dc4acae49f4b}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+12@{mntm\+Size\+\_\+12}}
+\index{mntm\+Size\+\_\+12@{mntm\+Size\+\_\+12}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+12}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+12\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ada6afb80750b1367cbb4dc4acae49f4b}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_afe11959823d15698b8ef79c701d24705}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+14@{mntm\+Size\+\_\+14}}
+\index{mntm\+Size\+\_\+14@{mntm\+Size\+\_\+14}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+14}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+14\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_afe11959823d15698b8ef79c701d24705}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ad753490ecc6eb30372c7e8a4d9bce319}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+16@{mntm\+Size\+\_\+16}}
+\index{mntm\+Size\+\_\+16@{mntm\+Size\+\_\+16}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+16}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+16\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ad753490ecc6eb30372c7e8a4d9bce319}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae3c577e710806d61ed05df0bc8be487b}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+18@{mntm\+Size\+\_\+18}}
+\index{mntm\+Size\+\_\+18@{mntm\+Size\+\_\+18}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+18}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+18\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae3c577e710806d61ed05df0bc8be487b}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a97a4d037ea3a2b0a556280f5fc90fc01}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+24@{mntm\+Size\+\_\+24}}
+\index{mntm\+Size\+\_\+24@{mntm\+Size\+\_\+24}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+24}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+24\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a97a4d037ea3a2b0a556280f5fc90fc01}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a325e2a4cd1cd58269d9f8b3957a09710}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+36@{mntm\+Size\+\_\+36}}
+\index{mntm\+Size\+\_\+36@{mntm\+Size\+\_\+36}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+36}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+36\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a325e2a4cd1cd58269d9f8b3957a09710}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8aadd2c41e4cca1d9cd36676f10a7b4c}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+48@{mntm\+Size\+\_\+48}}
+\index{mntm\+Size\+\_\+48@{mntm\+Size\+\_\+48}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+48}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+48\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8aadd2c41e4cca1d9cd36676f10a7b4c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae16ca66c315ae28ba7b99aad21ad5e09}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Size\+\_\+8@{mntm\+Size\+\_\+8}}
+\index{mntm\+Size\+\_\+8@{mntm\+Size\+\_\+8}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Size\+\_\+8}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Size\+\_\+8\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae16ca66c315ae28ba7b99aad21ad5e09}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7eb8b768edb92241a98e41f17cd6570}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Tahoma@{mntm\+Tahoma}}
+\index{mntm\+Tahoma@{mntm\+Tahoma}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Tahoma}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Tahoma\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa7eb8b768edb92241a98e41f17cd6570}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a05f0a24d3f92ed2dbbfe7eced7c05b12}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mntm\+Verdana@{mntm\+Verdana}}
+\index{mntm\+Verdana@{mntm\+Verdana}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mntm\+Verdana}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box\+Menu\+Item mntm\+Verdana\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a05f0a24d3f92ed2dbbfe7eced7c05b12}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a5bdad6dc2b9da47a45a0a6b1454b85ed}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!mn\+View@{mn\+View}}
+\index{mn\+View@{mn\+View}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{mn\+View}]{\setlength{\rightskip}{0pt plus 5cm}J\+Menu mn\+View\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a5bdad6dc2b9da47a45a0a6b1454b85ed}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab210fa766a5aec2702de6587366989b9}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!note\+Colour\+Converter@{note\+Colour\+Converter}}
+\index{note\+Colour\+Converter@{note\+Colour\+Converter}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{note\+Colour\+Converter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Note\+Colour\+Converter} note\+Colour\+Converter = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ab210fa766a5aec2702de6587366989b9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae989d6c379f0d116f3811a9d7793e30b}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!open\+File\+Name@{open\+File\+Name}}
+\index{open\+File\+Name@{open\+File\+Name}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{open\+File\+Name}]{\setlength{\rightskip}{0pt plus 5cm}String open\+File\+Name = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_ae989d6c379f0d116f3811a9d7793e30b}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3fdd66f1536341b66a7bdb456ab2569f}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!progress\+Bar@{progress\+Bar}}
+\index{progress\+Bar@{progress\+Bar}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{progress\+Bar}]{\setlength{\rightskip}{0pt plus 5cm}J\+Progress\+Bar progress\+Bar\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a3fdd66f1536341b66a7bdb456ab2569f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8f1c2180a937d6483a4912d602dfe023}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!slider\+Time@{slider\+Time}}
+\index{slider\+Time@{slider\+Time}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{slider\+Time}]{\setlength{\rightskip}{0pt plus 5cm}J\+Slider slider\+Time\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a8f1c2180a937d6483a4912d602dfe023}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a71f41e4a3f136fb318fb088bd4695dc2}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!slider\+Volume@{slider\+Volume}}
+\index{slider\+Volume@{slider\+Volume}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{slider\+Volume}]{\setlength{\rightskip}{0pt plus 5cm}J\+Slider slider\+Volume\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a71f41e4a3f136fb318fb088bd4695dc2}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2679c1a277ffcf00ff91ae8bfa676442}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!spinner\+Speed@{spinner\+Speed}}
+\index{spinner\+Speed@{spinner\+Speed}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{spinner\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}J\+Spinner spinner\+Speed\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a2679c1a277ffcf00ff91ae8bfa676442}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a19fb25d7d050c69ae47f8f492b4de4c8}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!sp\+Key\+Editor@{sp\+Key\+Editor}}
+\index{sp\+Key\+Editor@{sp\+Key\+Editor}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{sp\+Key\+Editor}]{\setlength{\rightskip}{0pt plus 5cm}J\+Scroll\+Pane sp\+Key\+Editor\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_a19fb25d7d050c69ae47f8f492b4de4c8}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa98315e1a5633a11870e6166725b4cd7}{\index{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}!tp\+Key\+Editor@{tp\+Key\+Editor}}
+\index{tp\+Key\+Editor@{tp\+Key\+Editor}!com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator@{com\+::lclion\+::midigui\+::\+J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator}}
+\subsubsection[{tp\+Key\+Editor}]{\setlength{\rightskip}{0pt plus 5cm}J\+Text\+Pane tp\+Key\+Editor\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator_aa98315e1a5633a11870e6166725b4cd7}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midigui/\hyperlink{_j_frame_m_i_d_i_piano_sheet_creator_8java}{J\+Frame\+M\+I\+D\+I\+Piano\+Sheet\+Creator.\+java}\end{DoxyCompactItemize}

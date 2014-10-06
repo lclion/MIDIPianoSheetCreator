@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_about.html" title="A dialog showing software information. " alt="" coords="157,5,249,32"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_colour_reference.html" title="A dialog that shows the note values in colour for users to use as reference. " alt="" coords="126,56,279,83"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard.html" title="Displays a preview of a QWERTY keyboard, indicating the current note played from the main window..." alt="" coords="117,107,288,133"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_piano.html" title="Displays a preview of a 61&#45;keyed piano, indicating the current note played from the main window..." alt="" coords="128,157,277,184"/>
+<area shape="rect" id="node6" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_preferences.html" title="The main preference window where users can configure how MIDI files get imported. ..." alt="" coords="139,208,266,235"/>
+<area shape="rect" id="node7" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html" title="Dialog which displays advanced track importing options. Displayed when importing MIDI files..." alt="" coords="139,259,266,285"/>
+</map>

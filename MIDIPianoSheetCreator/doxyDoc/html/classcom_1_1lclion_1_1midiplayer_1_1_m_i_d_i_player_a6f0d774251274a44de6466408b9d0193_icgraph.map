@@ -1,0 +1,11 @@
+<map id="setInstrument" name="setInstrument">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a27d3ba5afb772cc36c9a432c28975ace" title="Initialise buttons related to this window. " alt="" coords="467,144,689,185"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a48db1e242ba2acdb007ab6e8f5c245c6" title="Initialise the menus in the main window. " alt="" coords="171,5,402,47"/>
+<area shape="rect" id="node6" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#ae7bd958cecc96a4e5d1ea09834b6d0ef" title="com.lclion.midigui.JFrame\lMIDIPianoSheetCreator.changeInstrument" alt="" coords="155,71,419,112"/>
+<area shape="rect" id="node8" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a0bafa31e350020787d811f3697dceb86" title="playMIDI" alt="" coords="251,187,323,214"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#aa7344d98b77fcf456e4333719d4e4a34" title="com.lclion.midigui.JFrame\lMIDIPianoSheetCreator.JFrameMIDIPiano\lSheetCreator" alt="" coords="1016,97,1279,153"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a0b0e9cd41d19d9cb52443c381a519994" title="Initialise Menu Bars related to this window. " alt="" coords="737,71,968,112"/>
+<area shape="rect" id="node7" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a200519724ded34307a2e8c0cd6497a56" title="com.lclion.midigui.JFrame\lMIDIPianoSheetCreator.initMenu\lInstruments" alt="" coords="473,63,683,119"/>
+<area shape="rect" id="node9" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#ab5f5b7d46d664f092c40a045618402b5" title="com.lclion.midigui.Dialog\lTrackImport.setupPreviewPlayer" alt="" coords="475,209,681,251"/>
+<area shape="rect" id="node10" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a2ec034a8f00a81096e52e15c9a4af6a0" title="com.lclion.midigui.Dialog\lTrackImport.DialogTrackImport" alt="" coords="753,209,952,251"/>
+</map>

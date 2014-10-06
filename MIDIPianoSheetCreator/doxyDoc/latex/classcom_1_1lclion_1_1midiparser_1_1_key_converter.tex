@@ -1,0 +1,113 @@
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter}{\section{Key\+Converter Class Reference}
+\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter}\index{Key\+Converter@{Key\+Converter}}
+}
+
+
+Convert M\+I\+D\+I Numbers to corresponding note key used in the Q\+W\+E\+R\+T\+Y keyboard.  
+
+
+
+
+Collaboration diagram for Key\+Converter\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classcom_1_1lclion_1_1midiparser_1_1_key_converter__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a9120cd6d8e70712293f11a7898c38f37}{Key\+Converter} ()
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter_aa19949a61ff13647e0d76138ede95bf3}{convert\+Midi\+To\+Keyboard} (int midi\+Num)
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a3d3303353cc49236c800b6ad8c6b7b1f}{convert\+Keyboard\+To\+Midi} (String keyboard\+Char)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a6d5d75a2ebe6d53c98735c6ce1f95241}{setup\+Default\+Keys} ()
+\begin{DoxyCompactList}\small\item\em Setup default keys as question marks. \end{DoxyCompactList}\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a02fd73d861ef2e4aabb38c0c9ff82947}{init} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Array\+List$<$ String $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter_af11968cbb98cd6af2f9346e917d7138d}{keyboard\+Keys} = new Array\+List$<$String$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Convert M\+I\+D\+I Numbers to corresponding note key used in the Q\+W\+E\+R\+T\+Y keyboard. 
+
+\begin{DoxyAuthor}{Author}
+L\+C Lion 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a9120cd6d8e70712293f11a7898c38f37}{\index{com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}!Key\+Converter@{Key\+Converter}}
+\index{Key\+Converter@{Key\+Converter}!com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}}
+\subsubsection[{Key\+Converter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Converter} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a9120cd6d8e70712293f11a7898c38f37}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a9120cd6d8e70712293f11a7898c38f37_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a3d3303353cc49236c800b6ad8c6b7b1f}{\index{com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}!convert\+Keyboard\+To\+Midi@{convert\+Keyboard\+To\+Midi}}
+\index{convert\+Keyboard\+To\+Midi@{convert\+Keyboard\+To\+Midi}!com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}}
+\subsubsection[{convert\+Keyboard\+To\+Midi}]{\setlength{\rightskip}{0pt plus 5cm}int convert\+Keyboard\+To\+Midi (
+\begin{DoxyParamCaption}
+\item[{String}]{keyboard\+Char}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a3d3303353cc49236c800b6ad8c6b7b1f}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter_aa19949a61ff13647e0d76138ede95bf3}{\index{com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}!convert\+Midi\+To\+Keyboard@{convert\+Midi\+To\+Keyboard}}
+\index{convert\+Midi\+To\+Keyboard@{convert\+Midi\+To\+Keyboard}!com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}}
+\subsubsection[{convert\+Midi\+To\+Keyboard}]{\setlength{\rightskip}{0pt plus 5cm}String convert\+Midi\+To\+Keyboard (
+\begin{DoxyParamCaption}
+\item[{int}]{midi\+Num}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter_aa19949a61ff13647e0d76138ede95bf3}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a02fd73d861ef2e4aabb38c0c9ff82947}{\index{com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}!init@{init}}
+\index{init@{init}!com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a02fd73d861ef2e4aabb38c0c9ff82947}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a6d5d75a2ebe6d53c98735c6ce1f95241}{\index{com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}!setup\+Default\+Keys@{setup\+Default\+Keys}}
+\index{setup\+Default\+Keys@{setup\+Default\+Keys}!com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}}
+\subsubsection[{setup\+Default\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}void setup\+Default\+Keys (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter_a6d5d75a2ebe6d53c98735c6ce1f95241}
+
+
+Setup default keys as question marks. 
+
+If the requested keys are out of range, display a default question mark, indicating it is out of range. 
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_key_converter_af11968cbb98cd6af2f9346e917d7138d}{\index{com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}!keyboard\+Keys@{keyboard\+Keys}}
+\index{keyboard\+Keys@{keyboard\+Keys}!com\+::lclion\+::midiparser\+::\+Key\+Converter@{com\+::lclion\+::midiparser\+::\+Key\+Converter}}
+\subsubsection[{keyboard\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ keyboard\+Keys = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_key_converter_af11968cbb98cd6af2f9346e917d7138d}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midiparser/\hyperlink{_key_converter_8java}{Key\+Converter.\+java}\end{DoxyCompactItemize}

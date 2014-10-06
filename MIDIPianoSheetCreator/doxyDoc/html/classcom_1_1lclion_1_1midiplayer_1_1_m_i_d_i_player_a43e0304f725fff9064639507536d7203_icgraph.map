@@ -1,0 +1,8 @@
+<map id="stopMIDI" name="stopMIDI">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a2ec034a8f00a81096e52e15c9a4af6a0" title="com.lclion.midigui.Dialog\lTrackImport.DialogTrackImport" alt="" coords="421,10,620,51"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#ab5f5b7d46d664f092c40a045618402b5" title="com.lclion.midigui.Dialog\lTrackImport.setupPreviewPlayer" alt="" coords="139,43,345,84"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a27d3ba5afb772cc36c9a432c28975ace" title="Initialise buttons related to this window. " alt="" coords="409,99,632,140"/>
+<area shape="rect" id="node6" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a48db1e242ba2acdb007ab6e8f5c245c6" title="Initialise the menus in the main window. " alt="" coords="127,162,357,203"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#aa7344d98b77fcf456e4333719d4e4a34" title="com.lclion.midigui.JFrame\lMIDIPianoSheetCreator.JFrameMIDIPiano\lSheetCreator" alt="" coords="684,125,947,181"/>
+<area shape="rect" id="node7" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a0b0e9cd41d19d9cb52443c381a519994" title="Initialise Menu Bars related to this window. " alt="" coords="405,164,636,206"/>
+</map>

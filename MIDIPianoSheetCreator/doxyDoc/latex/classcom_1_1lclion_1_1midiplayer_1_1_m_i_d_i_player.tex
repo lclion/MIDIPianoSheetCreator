@@ -1,0 +1,295 @@
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player}{\section{M\+I\+D\+I\+Player Class Reference}
+\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player}\index{M\+I\+D\+I\+Player@{M\+I\+D\+I\+Player}}
+}
+
+
+A \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player}{M\+I\+D\+I\+Player} that manages the playback of M\+I\+D\+I files.  
+
+
+
+
+Collaboration diagram for M\+I\+D\+I\+Player\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0e4d3ba471e75a0430fbe278fcaa2888}{M\+I\+D\+I\+Player} (File file)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a28c694149ed3aa271b8dc56eb0785b96}{play\+Keys} (int\mbox{[}$\,$\mbox{]} keys)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0bafa31e350020787d811f3697dceb86}{play\+M\+I\+D\+I} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a43e0304f725fff9064639507536d7203}{stop\+M\+I\+D\+I} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0d9aa818aac57f70d4d9a27cb08aa68a}{pause\+M\+I\+D\+I} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ab82fe765a6f62ab63ed7f35c2c9b3002}{set\+Volume} (double \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aed48ca0bcd2162fd4fd495873e2631f5}{volume})
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6f0d774251274a44de6466408b9d0193}{set\+Instrument} (int prog\+Num)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a5466c67c5ec22359c0702dc4ac8ffb19}{set\+Speed} (float speed)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6d58098c6cf63c241ed03bc797256bb1}{play} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a7f758814eb3a4fc62794d0453b2cba42}{print\+Tick\+Pos} ()
+\item 
+boolean \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a876c0699cfeae70f84fc508a4b05b6c0}{is\+Running} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_adf42fe0a3253b9d6fed0dea0aba77cb4}{set\+Tick} (long tick)
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4e64895a61273ddd850ecdc7e7f1d639}{get\+Current\+Tick} ()
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a318c504fc464b620e829b6ed354cc922}{get\+Tick\+Length} ()
+\item 
+Track\mbox{[}$\,$\mbox{]} \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a9c00c1196a6593faccf3e71ee4ba7c84}{get\+Tracks} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a5ea586ca69152e093de72efaa30035ab}{mute\+Track} (int track\+Num)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a273586a96562827374d3167a6f844bf1}{unmute\+Track} (int track\+Num)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a32f4912c0d576586a49ecce3a41709e8}{unmute\+All\+Tracks} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6b4104bceabf350464cc74e4d9babcb1}{print\+Patch\+List} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_adf7dff2c57c0da9a4a2b70e3e815be31}{channel} = 0
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aed48ca0bcd2162fd4fd495873e2631f5}{volume} = 80
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ac6e4b2a3cf932b33832d4e4e4e7cd0de}{duration} = 200
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a421d9b518a4d3273cec866d51b135803}{current\+Instrument\+Patch\+Num} = -\/1
+\item 
+Sequence \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aae9bd69432c806ce0c10016839a874a2}{sequence} = null
+\item 
+Sequencer \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a857733a65a16f85598c03acd97305607}{sequencer} = null
+\item 
+Synthesizer \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4356e5541666df1f482a781ea4f6ff42}{synth}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter}{Key\+Converter} \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_acc7c29517d4ac6fb6eb51b8d9b714728}{key\+Converter} = new \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter}{Key\+Converter}()
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_af7f77ddd1de996adaa69c1f5d8492dfa}{text\+To\+Play} = null
+\item 
+Controller\+Event\+Listener \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a3e129365b1af8a27e0e46ff8334d1415}{controller\+Event\+Listener} = null
+\item 
+Meta\+Event\+Listener \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4a46968d288601bb1f3180ee85507266}{mel} = null
+\item 
+Receiver \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a679c25b0c10670fdd4d2fb4f8cd774ec}{receiver} = null
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ac035f42f6f27179d122b97d54fd030e1}{N\+O\+T\+E\+\_\+\+O\+N} = 0x90
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A \hyperlink{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player}{M\+I\+D\+I\+Player} that manages the playback of M\+I\+D\+I files. 
+
+\begin{DoxyAuthor}{Author}
+L\+C Lion 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0e4d3ba471e75a0430fbe278fcaa2888}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!M\+I\+D\+I\+Player@{M\+I\+D\+I\+Player}}
+\index{M\+I\+D\+I\+Player@{M\+I\+D\+I\+Player}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{M\+I\+D\+I\+Player}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+I\+D\+I\+Player} (
+\begin{DoxyParamCaption}
+\item[{File}]{file}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0e4d3ba471e75a0430fbe278fcaa2888}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4e64895a61273ddd850ecdc7e7f1d639}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!get\+Current\+Tick@{get\+Current\+Tick}}
+\index{get\+Current\+Tick@{get\+Current\+Tick}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{get\+Current\+Tick}]{\setlength{\rightskip}{0pt plus 5cm}long get\+Current\+Tick (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4e64895a61273ddd850ecdc7e7f1d639}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a318c504fc464b620e829b6ed354cc922}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!get\+Tick\+Length@{get\+Tick\+Length}}
+\index{get\+Tick\+Length@{get\+Tick\+Length}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{get\+Tick\+Length}]{\setlength{\rightskip}{0pt plus 5cm}long get\+Tick\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a318c504fc464b620e829b6ed354cc922}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a9c00c1196a6593faccf3e71ee4ba7c84}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!get\+Tracks@{get\+Tracks}}
+\index{get\+Tracks@{get\+Tracks}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{get\+Tracks}]{\setlength{\rightskip}{0pt plus 5cm}Track \mbox{[}$\,$\mbox{]} get\+Tracks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a9c00c1196a6593faccf3e71ee4ba7c84}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a876c0699cfeae70f84fc508a4b05b6c0}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!is\+Running@{is\+Running}}
+\index{is\+Running@{is\+Running}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{is\+Running}]{\setlength{\rightskip}{0pt plus 5cm}boolean is\+Running (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a876c0699cfeae70f84fc508a4b05b6c0}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a5ea586ca69152e093de72efaa30035ab}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!mute\+Track@{mute\+Track}}
+\index{mute\+Track@{mute\+Track}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{mute\+Track}]{\setlength{\rightskip}{0pt plus 5cm}void mute\+Track (
+\begin{DoxyParamCaption}
+\item[{int}]{track\+Num}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a5ea586ca69152e093de72efaa30035ab}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0d9aa818aac57f70d4d9a27cb08aa68a}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!pause\+M\+I\+D\+I@{pause\+M\+I\+D\+I}}
+\index{pause\+M\+I\+D\+I@{pause\+M\+I\+D\+I}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{pause\+M\+I\+D\+I}]{\setlength{\rightskip}{0pt plus 5cm}void pause\+M\+I\+D\+I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0d9aa818aac57f70d4d9a27cb08aa68a}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6d58098c6cf63c241ed03bc797256bb1}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!play@{play}}
+\index{play@{play}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{play}]{\setlength{\rightskip}{0pt plus 5cm}void play (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6d58098c6cf63c241ed03bc797256bb1}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a28c694149ed3aa271b8dc56eb0785b96}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!play\+Keys@{play\+Keys}}
+\index{play\+Keys@{play\+Keys}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{play\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}void play\+Keys (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{keys}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a28c694149ed3aa271b8dc56eb0785b96}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0bafa31e350020787d811f3697dceb86}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!play\+M\+I\+D\+I@{play\+M\+I\+D\+I}}
+\index{play\+M\+I\+D\+I@{play\+M\+I\+D\+I}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{play\+M\+I\+D\+I}]{\setlength{\rightskip}{0pt plus 5cm}void play\+M\+I\+D\+I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0bafa31e350020787d811f3697dceb86}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a0bafa31e350020787d811f3697dceb86_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6b4104bceabf350464cc74e4d9babcb1}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!print\+Patch\+List@{print\+Patch\+List}}
+\index{print\+Patch\+List@{print\+Patch\+List}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{print\+Patch\+List}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Patch\+List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6b4104bceabf350464cc74e4d9babcb1}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a7f758814eb3a4fc62794d0453b2cba42}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!print\+Tick\+Pos@{print\+Tick\+Pos}}
+\index{print\+Tick\+Pos@{print\+Tick\+Pos}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{print\+Tick\+Pos}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Tick\+Pos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a7f758814eb3a4fc62794d0453b2cba42}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6f0d774251274a44de6466408b9d0193}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!set\+Instrument@{set\+Instrument}}
+\index{set\+Instrument@{set\+Instrument}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{set\+Instrument}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Instrument (
+\begin{DoxyParamCaption}
+\item[{int}]{prog\+Num}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a6f0d774251274a44de6466408b9d0193}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a5466c67c5ec22359c0702dc4ac8ffb19}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!set\+Speed@{set\+Speed}}
+\index{set\+Speed@{set\+Speed}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{set\+Speed}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Speed (
+\begin{DoxyParamCaption}
+\item[{float}]{speed}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a5466c67c5ec22359c0702dc4ac8ffb19}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_adf42fe0a3253b9d6fed0dea0aba77cb4}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!set\+Tick@{set\+Tick}}
+\index{set\+Tick@{set\+Tick}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{set\+Tick}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Tick (
+\begin{DoxyParamCaption}
+\item[{long}]{tick}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_adf42fe0a3253b9d6fed0dea0aba77cb4}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ab82fe765a6f62ab63ed7f35c2c9b3002}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!set\+Volume@{set\+Volume}}
+\index{set\+Volume@{set\+Volume}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{set\+Volume}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Volume (
+\begin{DoxyParamCaption}
+\item[{double}]{volume}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ab82fe765a6f62ab63ed7f35c2c9b3002}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a43e0304f725fff9064639507536d7203}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!stop\+M\+I\+D\+I@{stop\+M\+I\+D\+I}}
+\index{stop\+M\+I\+D\+I@{stop\+M\+I\+D\+I}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{stop\+M\+I\+D\+I}]{\setlength{\rightskip}{0pt plus 5cm}void stop\+M\+I\+D\+I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a43e0304f725fff9064639507536d7203}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a32f4912c0d576586a49ecce3a41709e8}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!unmute\+All\+Tracks@{unmute\+All\+Tracks}}
+\index{unmute\+All\+Tracks@{unmute\+All\+Tracks}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{unmute\+All\+Tracks}]{\setlength{\rightskip}{0pt plus 5cm}void unmute\+All\+Tracks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a32f4912c0d576586a49ecce3a41709e8}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a273586a96562827374d3167a6f844bf1}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!unmute\+Track@{unmute\+Track}}
+\index{unmute\+Track@{unmute\+Track}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{unmute\+Track}]{\setlength{\rightskip}{0pt plus 5cm}void unmute\+Track (
+\begin{DoxyParamCaption}
+\item[{int}]{track\+Num}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a273586a96562827374d3167a6f844bf1}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_adf7dff2c57c0da9a4a2b70e3e815be31}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!channel@{channel}}
+\index{channel@{channel}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{channel}]{\setlength{\rightskip}{0pt plus 5cm}int channel = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_adf7dff2c57c0da9a4a2b70e3e815be31}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a3e129365b1af8a27e0e46ff8334d1415}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!controller\+Event\+Listener@{controller\+Event\+Listener}}
+\index{controller\+Event\+Listener@{controller\+Event\+Listener}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{controller\+Event\+Listener}]{\setlength{\rightskip}{0pt plus 5cm}Controller\+Event\+Listener controller\+Event\+Listener = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a3e129365b1af8a27e0e46ff8334d1415}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a421d9b518a4d3273cec866d51b135803}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!current\+Instrument\+Patch\+Num@{current\+Instrument\+Patch\+Num}}
+\index{current\+Instrument\+Patch\+Num@{current\+Instrument\+Patch\+Num}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{current\+Instrument\+Patch\+Num}]{\setlength{\rightskip}{0pt plus 5cm}int current\+Instrument\+Patch\+Num = -\/1\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a421d9b518a4d3273cec866d51b135803}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ac6e4b2a3cf932b33832d4e4e4e7cd0de}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!duration@{duration}}
+\index{duration@{duration}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{duration}]{\setlength{\rightskip}{0pt plus 5cm}int duration = 200\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ac6e4b2a3cf932b33832d4e4e4e7cd0de}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_acc7c29517d4ac6fb6eb51b8d9b714728}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!key\+Converter@{key\+Converter}}
+\index{key\+Converter@{key\+Converter}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{key\+Converter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Converter} key\+Converter = new {\bf Key\+Converter}()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_acc7c29517d4ac6fb6eb51b8d9b714728}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4a46968d288601bb1f3180ee85507266}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!mel@{mel}}
+\index{mel@{mel}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{mel}]{\setlength{\rightskip}{0pt plus 5cm}Meta\+Event\+Listener mel = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4a46968d288601bb1f3180ee85507266}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ac035f42f6f27179d122b97d54fd030e1}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!N\+O\+T\+E\+\_\+\+O\+N@{N\+O\+T\+E\+\_\+\+O\+N}}
+\index{N\+O\+T\+E\+\_\+\+O\+N@{N\+O\+T\+E\+\_\+\+O\+N}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{N\+O\+T\+E\+\_\+\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}final int N\+O\+T\+E\+\_\+\+O\+N = 0x90\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_ac035f42f6f27179d122b97d54fd030e1}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a679c25b0c10670fdd4d2fb4f8cd774ec}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!receiver@{receiver}}
+\index{receiver@{receiver}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{receiver}]{\setlength{\rightskip}{0pt plus 5cm}Receiver receiver = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a679c25b0c10670fdd4d2fb4f8cd774ec}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aae9bd69432c806ce0c10016839a874a2}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!sequence@{sequence}}
+\index{sequence@{sequence}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{sequence}]{\setlength{\rightskip}{0pt plus 5cm}Sequence sequence = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aae9bd69432c806ce0c10016839a874a2}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a857733a65a16f85598c03acd97305607}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!sequencer@{sequencer}}
+\index{sequencer@{sequencer}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{sequencer}]{\setlength{\rightskip}{0pt plus 5cm}Sequencer sequencer = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a857733a65a16f85598c03acd97305607}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4356e5541666df1f482a781ea4f6ff42}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!synth@{synth}}
+\index{synth@{synth}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{synth}]{\setlength{\rightskip}{0pt plus 5cm}Synthesizer synth\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_a4356e5541666df1f482a781ea4f6ff42}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_af7f77ddd1de996adaa69c1f5d8492dfa}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!text\+To\+Play@{text\+To\+Play}}
+\index{text\+To\+Play@{text\+To\+Play}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{text\+To\+Play}]{\setlength{\rightskip}{0pt plus 5cm}String text\+To\+Play = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_af7f77ddd1de996adaa69c1f5d8492dfa}
+\hypertarget{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aed48ca0bcd2162fd4fd495873e2631f5}{\index{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}!volume@{volume}}
+\index{volume@{volume}!com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player@{com\+::lclion\+::midiplayer\+::\+M\+I\+D\+I\+Player}}
+\subsubsection[{volume}]{\setlength{\rightskip}{0pt plus 5cm}int volume = 80\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player_aed48ca0bcd2162fd4fd495873e2631f5}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midiplayer/\hyperlink{_m_i_d_i_player_8java}{M\+I\+D\+I\+Player.\+java}\end{DoxyCompactItemize}

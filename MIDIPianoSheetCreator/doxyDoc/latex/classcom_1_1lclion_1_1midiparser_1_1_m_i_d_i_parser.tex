@@ -1,0 +1,484 @@
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser}{\section{M\+I\+D\+I\+Parser Class Reference}
+\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser}\index{M\+I\+D\+I\+Parser@{M\+I\+D\+I\+Parser}}
+}
+
+
+The main parser that parses M\+I\+D\+I file into readable notes.  
+
+
+
+
+Collaboration diagram for M\+I\+D\+I\+Parser\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a42fc840125b67cc2511f12c7f6d1a362}{M\+I\+D\+I\+Parser} (File file)
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a79cff8d5b2c0721d1871f65536fca8aa}{parse\+M\+I\+D\+I} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6356cc4e4568eaf610999c4b32431749}{retrieve\+Midi\+Data} (int\mbox{[}$\,$\mbox{]} selected\+Tracks)
+\item 
+Tree\+Map$<$ Long, Array\+List\\*
+$<$ Integer $>$ $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af1c1599b923aa52978623f10a08d4d97}{get\+Tm\+Midi\+Parsed\+Data} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a31bfbd201be76f49735d3df6c362980a}{save\+Midi\+C\+S\+V} ()
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ab52f7b2d5fc11fad840da51a5b49ab0e}{get\+Parsed\+Data} ()
+\item 
+Array\+List$<$ Integer $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a5344cfe20b2847e6b1126b799c03e54e}{get\+Total\+Track\+Events\+Number} ()
+\item 
+Tree\+Map$<$ Integer, Array\+List\\*
+$<$ Long $>$ $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a25947e3c729a3eb6a7701dae3634b9b6}{retrieve\+Tracks\+Events} ()
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9ea2bab3f45e0b74eba2c08c635d4866}{get\+Patch\+Number} (int track\+Num)
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aecc53ce49126b72aa5a52b01389b6e94}{get\+Channel\+Number} (int track\+Num)
+\item 
+Array\+List$<$ Long $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aaa7385baef162e66f5dd608c345dda8d}{get\+Event\+Trigger\+Time} ()
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a36449f95958a9f33a6bf44945252e2d7}{get\+Next\+Trigger\+Time} (int element\+Value)
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a4669a62a8b0a61ee7cb351639cd5d357}{get\+Next\+Trigger\+Note} (int element\+Value)
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_acc6c9009b8fed2060c1b03fa051086d9}{get\+Next\+Trigger\+Time\+Element} (long tick)
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa9a3932117bdd0743daac84c2ca8e19a}{get\+Trigger\+Time\+Size} ()
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a318c504fc464b620e829b6ed354cc922}{get\+Tick\+Length} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6974b380083ade3bb6ce3d20a8f7592a}{set\+Measure\+Per\+Line} (int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9a55cb81b8582eb4cbbc0a0ef91db56e}{measure\+Multiplier})
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0914f098f4ac38ddac1f9b57203a9241}{get\+Tracks} ()
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a58cfc312af72ba770bca4aecc7e6c505}{get\+Quarter\+Note} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac4000b072e7a320337cc23bfc22de62d}{T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E} = 0x58
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a95dc4fc863a442e4d13db55a30021dbc}{add\+Key} (char key\+To\+Add)
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0d273c8df789364bd05888eec0d887a1}{convert\+Midi\+Num\+To\+Keys} (Array\+List$<$ Integer $>$ M\+I\+D\+I\+Numbers)
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a01a62f079f758bfd080cafec626e0bba}{format\+Brackets} (String current\+Notes)
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa721dfe0d567bb74d7d8b108cbd17989}{format\+Time} (long time, String current\+Notes)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a1a6947c3e60f6f74022834f05b71d8b3}{parse\+Data} (Tree\+Map$<$ Long, Array\+List$<$ Integer $>$$>$ raw\+Data)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a32e1f8f0f14a58552e8972fc6e02da30}{set\+Time\+Signature} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0a6214124c40fd0db497cbdd73cf3a32}{get\+Time\+Signature} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Sequencer \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a857733a65a16f85598c03acd97305607}{sequencer} = null
+\item 
+Sequence \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aae9bd69432c806ce0c10016839a874a2}{sequence} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3a5f56162810aa1e371620c4c18cc82a}{file\+Name} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9ade7b0db4d14601924d1d67a9a98c96}{str\+Time\+Signature\+Info} = null
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3c9243db1d16921999625d8c92137085}{complete\+Notes} = \char`\"{}\char`\"{}
+\item 
+Array\+List$<$ Long $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a74fa4197a892bf1767a6e5eb295e00ab}{event\+Trigger\+Time} = new Array\+List$<$Long$>$()
+\item 
+Array\+List$<$ String $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3a6a37f76d1411625bac106b93d1c1b7}{event\+Trigger\+Note} = new Array\+List$<$String$>$()
+\item 
+Tree\+Map$<$ Long, Array\+List\\*
+$<$ Integer $>$ $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aaa5da6a46779f30b5e491729559ab183}{tm\+Midi\+Parsed\+Data} = null
+\item 
+Tree\+Map$<$ Integer, Array\+List\\*
+$<$ Long $>$ $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac3ef5d55fe6e4c55e06efa4d6a4f05b3}{tm\+Tracks\+Events} = null
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_afe73b681d8322ca28bb66fab4764b310}{check\+Tick} = 0
+\item 
+long \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aec0bccc7b1362ff3393cf1f13f0f89b1}{midi\+Tick\+Length} = 0
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa3851167fb02270887162e55dfb5d370}{beats\+Per\+Measure} = 0
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ad1e462120d3438537d08dec3970bc996}{note\+Value\+In\+Measure} = 0
+\item 
+float \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a77523469bbc99d657ddb184aa2dcb4c7}{measure\+Length} = 0
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9a55cb81b8582eb4cbbc0a0ef91db56e}{measure\+Multiplier} = 1
+\item 
+float \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_abd6a816e8fe161e38844aeddac581af2}{current\+Measure} = 0
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af186165a05dd64dd883a4697fd0b1d00}{upper\+Keys} = \char`\"{}\char`\"{}
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af2ff13695bae1b9c991aeaa6a7ad3f3c}{lower\+Keys} = \char`\"{}\char`\"{}
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ae95a908b6894c33a614224f731a53b2d}{numeric\+Keys} = \char`\"{}\char`\"{}
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_abb638d880a4d9f3c793d9dfae2bd5d65}{other\+Keys} = \char`\"{}\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac035f42f6f27179d122b97d54fd030e1}{N\+O\+T\+E\+\_\+\+O\+N} = 0x90
+\item 
+static final int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac6d1248a531a8620967406d69edda242}{N\+O\+T\+E\+\_\+\+O\+F\+F} = 0x80
+\item 
+static \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter}{Key\+Converter} \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_acc7c29517d4ac6fb6eb51b8d9b714728}{key\+Converter} = new \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_key_converter}{Key\+Converter}()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The main parser that parses M\+I\+D\+I file into readable notes. 
+
+A class that parses M\+I\+D\+I Files directly, and outputs to alpha numeric keys.
+
+\begin{DoxyAuthor}{Author}
+L\+C Lion 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a42fc840125b67cc2511f12c7f6d1a362}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!M\+I\+D\+I\+Parser@{M\+I\+D\+I\+Parser}}
+\index{M\+I\+D\+I\+Parser@{M\+I\+D\+I\+Parser}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{M\+I\+D\+I\+Parser}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+I\+D\+I\+Parser} (
+\begin{DoxyParamCaption}
+\item[{File}]{file}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a42fc840125b67cc2511f12c7f6d1a362}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a95dc4fc863a442e4d13db55a30021dbc}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!add\+Key@{add\+Key}}
+\index{add\+Key@{add\+Key}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{add\+Key}]{\setlength{\rightskip}{0pt plus 5cm}void add\+Key (
+\begin{DoxyParamCaption}
+\item[{char}]{key\+To\+Add}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a95dc4fc863a442e4d13db55a30021dbc}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0d273c8df789364bd05888eec0d887a1}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!convert\+Midi\+Num\+To\+Keys@{convert\+Midi\+Num\+To\+Keys}}
+\index{convert\+Midi\+Num\+To\+Keys@{convert\+Midi\+Num\+To\+Keys}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{convert\+Midi\+Num\+To\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}String convert\+Midi\+Num\+To\+Keys (
+\begin{DoxyParamCaption}
+\item[{Array\+List$<$ Integer $>$}]{M\+I\+D\+I\+Numbers}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0d273c8df789364bd05888eec0d887a1}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0d273c8df789364bd05888eec0d887a1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a01a62f079f758bfd080cafec626e0bba}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!format\+Brackets@{format\+Brackets}}
+\index{format\+Brackets@{format\+Brackets}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{format\+Brackets}]{\setlength{\rightskip}{0pt plus 5cm}String format\+Brackets (
+\begin{DoxyParamCaption}
+\item[{String}]{current\+Notes}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a01a62f079f758bfd080cafec626e0bba}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa721dfe0d567bb74d7d8b108cbd17989}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!format\+Time@{format\+Time}}
+\index{format\+Time@{format\+Time}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{format\+Time}]{\setlength{\rightskip}{0pt plus 5cm}String format\+Time (
+\begin{DoxyParamCaption}
+\item[{long}]{time, }
+\item[{String}]{current\+Notes}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa721dfe0d567bb74d7d8b108cbd17989}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aecc53ce49126b72aa5a52b01389b6e94}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Channel\+Number@{get\+Channel\+Number}}
+\index{get\+Channel\+Number@{get\+Channel\+Number}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Channel\+Number}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Channel\+Number (
+\begin{DoxyParamCaption}
+\item[{int}]{track\+Num}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aecc53ce49126b72aa5a52b01389b6e94}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aaa7385baef162e66f5dd608c345dda8d}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Event\+Trigger\+Time@{get\+Event\+Trigger\+Time}}
+\index{get\+Event\+Trigger\+Time@{get\+Event\+Trigger\+Time}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Event\+Trigger\+Time}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Long$>$ get\+Event\+Trigger\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aaa7385baef162e66f5dd608c345dda8d}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a4669a62a8b0a61ee7cb351639cd5d357}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Next\+Trigger\+Note@{get\+Next\+Trigger\+Note}}
+\index{get\+Next\+Trigger\+Note@{get\+Next\+Trigger\+Note}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Next\+Trigger\+Note}]{\setlength{\rightskip}{0pt plus 5cm}String get\+Next\+Trigger\+Note (
+\begin{DoxyParamCaption}
+\item[{int}]{element\+Value}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a4669a62a8b0a61ee7cb351639cd5d357}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a36449f95958a9f33a6bf44945252e2d7}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Next\+Trigger\+Time@{get\+Next\+Trigger\+Time}}
+\index{get\+Next\+Trigger\+Time@{get\+Next\+Trigger\+Time}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Next\+Trigger\+Time}]{\setlength{\rightskip}{0pt plus 5cm}long get\+Next\+Trigger\+Time (
+\begin{DoxyParamCaption}
+\item[{int}]{element\+Value}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a36449f95958a9f33a6bf44945252e2d7}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_acc6c9009b8fed2060c1b03fa051086d9}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Next\+Trigger\+Time\+Element@{get\+Next\+Trigger\+Time\+Element}}
+\index{get\+Next\+Trigger\+Time\+Element@{get\+Next\+Trigger\+Time\+Element}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Next\+Trigger\+Time\+Element}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Next\+Trigger\+Time\+Element (
+\begin{DoxyParamCaption}
+\item[{long}]{tick}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_acc6c9009b8fed2060c1b03fa051086d9}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ab52f7b2d5fc11fad840da51a5b49ab0e}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Parsed\+Data@{get\+Parsed\+Data}}
+\index{get\+Parsed\+Data@{get\+Parsed\+Data}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Parsed\+Data}]{\setlength{\rightskip}{0pt plus 5cm}String get\+Parsed\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ab52f7b2d5fc11fad840da51a5b49ab0e}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9ea2bab3f45e0b74eba2c08c635d4866}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Patch\+Number@{get\+Patch\+Number}}
+\index{get\+Patch\+Number@{get\+Patch\+Number}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Patch\+Number}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Patch\+Number (
+\begin{DoxyParamCaption}
+\item[{int}]{track\+Num}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9ea2bab3f45e0b74eba2c08c635d4866}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a58cfc312af72ba770bca4aecc7e6c505}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Quarter\+Note@{get\+Quarter\+Note}}
+\index{get\+Quarter\+Note@{get\+Quarter\+Note}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Quarter\+Note}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Quarter\+Note (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a58cfc312af72ba770bca4aecc7e6c505}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a318c504fc464b620e829b6ed354cc922}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Tick\+Length@{get\+Tick\+Length}}
+\index{get\+Tick\+Length@{get\+Tick\+Length}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Tick\+Length}]{\setlength{\rightskip}{0pt plus 5cm}long get\+Tick\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a318c504fc464b620e829b6ed354cc922}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0a6214124c40fd0db497cbdd73cf3a32}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Time\+Signature@{get\+Time\+Signature}}
+\index{get\+Time\+Signature@{get\+Time\+Signature}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Time\+Signature}]{\setlength{\rightskip}{0pt plus 5cm}void get\+Time\+Signature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0a6214124c40fd0db497cbdd73cf3a32}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af1c1599b923aa52978623f10a08d4d97}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Tm\+Midi\+Parsed\+Data@{get\+Tm\+Midi\+Parsed\+Data}}
+\index{get\+Tm\+Midi\+Parsed\+Data@{get\+Tm\+Midi\+Parsed\+Data}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Tm\+Midi\+Parsed\+Data}]{\setlength{\rightskip}{0pt plus 5cm}Tree\+Map$<$Long, Array\+List$<$Integer$>$ $>$ get\+Tm\+Midi\+Parsed\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af1c1599b923aa52978623f10a08d4d97}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a5344cfe20b2847e6b1126b799c03e54e}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Total\+Track\+Events\+Number@{get\+Total\+Track\+Events\+Number}}
+\index{get\+Total\+Track\+Events\+Number@{get\+Total\+Track\+Events\+Number}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Total\+Track\+Events\+Number}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Integer$>$ get\+Total\+Track\+Events\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a5344cfe20b2847e6b1126b799c03e54e}
+Gets the total number of events in all tracks, through an arraylist \hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0914f098f4ac38ddac1f9b57203a9241}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Tracks@{get\+Tracks}}
+\index{get\+Tracks@{get\+Tracks}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Tracks}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Tracks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a0914f098f4ac38ddac1f9b57203a9241}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa9a3932117bdd0743daac84c2ca8e19a}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!get\+Trigger\+Time\+Size@{get\+Trigger\+Time\+Size}}
+\index{get\+Trigger\+Time\+Size@{get\+Trigger\+Time\+Size}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{get\+Trigger\+Time\+Size}]{\setlength{\rightskip}{0pt plus 5cm}long get\+Trigger\+Time\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa9a3932117bdd0743daac84c2ca8e19a}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a1a6947c3e60f6f74022834f05b71d8b3}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!parse\+Data@{parse\+Data}}
+\index{parse\+Data@{parse\+Data}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{parse\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void parse\+Data (
+\begin{DoxyParamCaption}
+\item[{Tree\+Map$<$ Long, Array\+List$<$ Integer $>$$>$}]{raw\+Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a1a6947c3e60f6f74022834f05b71d8b3}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a1a6947c3e60f6f74022834f05b71d8b3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a79cff8d5b2c0721d1871f65536fca8aa}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!parse\+M\+I\+D\+I@{parse\+M\+I\+D\+I}}
+\index{parse\+M\+I\+D\+I@{parse\+M\+I\+D\+I}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{parse\+M\+I\+D\+I}]{\setlength{\rightskip}{0pt plus 5cm}String parse\+M\+I\+D\+I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a79cff8d5b2c0721d1871f65536fca8aa}
+The main M\+I\+D\+I parse loop logic Extracts necessary data from the M\+I\+D\+I, and converts them to Computer Keyboard Keys. It also saves the parsed midi data to a .csv file for my autoplay script. Complies with Midi\+C\+S\+V-\/1.\+1 output format for more information about the formatting of passed M\+I\+D\+I data, visit \href{http://www.fourmilab.ch/webtools/midicsv/}{\tt http\+://www.\+fourmilab.\+ch/webtools/midicsv/} This class is in the process of deprecation, following D\+R\+Y principles (Takes too long to parse)
+
+\begin{DoxyReturn}{Returns}
+the parsed notes in String 
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a79cff8d5b2c0721d1871f65536fca8aa_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6356cc4e4568eaf610999c4b32431749}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!retrieve\+Midi\+Data@{retrieve\+Midi\+Data}}
+\index{retrieve\+Midi\+Data@{retrieve\+Midi\+Data}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{retrieve\+Midi\+Data}]{\setlength{\rightskip}{0pt plus 5cm}void retrieve\+Midi\+Data (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{selected\+Tracks}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6356cc4e4568eaf610999c4b32431749}
+Retrieve the timing information of M\+I\+D\+I Events that has Note On, and all subsequential notes that are played on that time. The data is stored in a Tree\+Map
+
+
+\begin{DoxyParams}{Parameters}
+{\em selected\+Tracks} & The selected tracks from the midi. If an empty array is passed (as null), it will parse all tracks \\
+\hline
+\end{DoxyParams}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6356cc4e4568eaf610999c4b32431749_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a25947e3c729a3eb6a7701dae3634b9b6}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!retrieve\+Tracks\+Events@{retrieve\+Tracks\+Events}}
+\index{retrieve\+Tracks\+Events@{retrieve\+Tracks\+Events}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{retrieve\+Tracks\+Events}]{\setlength{\rightskip}{0pt plus 5cm}Tree\+Map$<$Integer, Array\+List$<$Long$>$ $>$ retrieve\+Tracks\+Events (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a25947e3c729a3eb6a7701dae3634b9b6}
+Returns the total number of events in all tracks, through a Tree\+Map Tree\+Map\+: $<$\+Key$>$, 
+
+Key\+: The track number in Integer. Track starts at 1, not zero. Value\+: An Array\+List of all events in that track. \hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a31bfbd201be76f49735d3df6c362980a}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!save\+Midi\+C\+S\+V@{save\+Midi\+C\+S\+V}}
+\index{save\+Midi\+C\+S\+V@{save\+Midi\+C\+S\+V}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{save\+Midi\+C\+S\+V}]{\setlength{\rightskip}{0pt plus 5cm}void save\+Midi\+C\+S\+V (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a31bfbd201be76f49735d3df6c362980a}
+For the selected midi, output a .csv file containing parsed midi data for Note\+\_\+on events only. the csv is used in scripts and is not used in this program It strictly follows the Midi\+C\+S\+V1-\/1 output conventions for more information regarding the convention format used, visit \href{http://www.fourmilab.ch/webtools/midicsv/}{\tt http\+://www.\+fourmilab.\+ch/webtools/midicsv/} \hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6974b380083ade3bb6ce3d20a8f7592a}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!set\+Measure\+Per\+Line@{set\+Measure\+Per\+Line}}
+\index{set\+Measure\+Per\+Line@{set\+Measure\+Per\+Line}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{set\+Measure\+Per\+Line}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Measure\+Per\+Line (
+\begin{DoxyParamCaption}
+\item[{int}]{measure\+Multiplier}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6974b380083ade3bb6ce3d20a8f7592a}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a6974b380083ade3bb6ce3d20a8f7592a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a32e1f8f0f14a58552e8972fc6e02da30}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!set\+Time\+Signature@{set\+Time\+Signature}}
+\index{set\+Time\+Signature@{set\+Time\+Signature}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{set\+Time\+Signature}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Time\+Signature (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a32e1f8f0f14a58552e8972fc6e02da30}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa3851167fb02270887162e55dfb5d370}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!beats\+Per\+Measure@{beats\+Per\+Measure}}
+\index{beats\+Per\+Measure@{beats\+Per\+Measure}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{beats\+Per\+Measure}]{\setlength{\rightskip}{0pt plus 5cm}int beats\+Per\+Measure = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aa3851167fb02270887162e55dfb5d370}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_afe73b681d8322ca28bb66fab4764b310}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!check\+Tick@{check\+Tick}}
+\index{check\+Tick@{check\+Tick}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{check\+Tick}]{\setlength{\rightskip}{0pt plus 5cm}long check\+Tick = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_afe73b681d8322ca28bb66fab4764b310}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3c9243db1d16921999625d8c92137085}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!complete\+Notes@{complete\+Notes}}
+\index{complete\+Notes@{complete\+Notes}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{complete\+Notes}]{\setlength{\rightskip}{0pt plus 5cm}String complete\+Notes = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3c9243db1d16921999625d8c92137085}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_abd6a816e8fe161e38844aeddac581af2}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!current\+Measure@{current\+Measure}}
+\index{current\+Measure@{current\+Measure}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{current\+Measure}]{\setlength{\rightskip}{0pt plus 5cm}float current\+Measure = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_abd6a816e8fe161e38844aeddac581af2}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3a6a37f76d1411625bac106b93d1c1b7}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!event\+Trigger\+Note@{event\+Trigger\+Note}}
+\index{event\+Trigger\+Note@{event\+Trigger\+Note}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{event\+Trigger\+Note}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ event\+Trigger\+Note = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3a6a37f76d1411625bac106b93d1c1b7}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a74fa4197a892bf1767a6e5eb295e00ab}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!event\+Trigger\+Time@{event\+Trigger\+Time}}
+\index{event\+Trigger\+Time@{event\+Trigger\+Time}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{event\+Trigger\+Time}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$Long$>$ event\+Trigger\+Time = new Array\+List$<$Long$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a74fa4197a892bf1767a6e5eb295e00ab}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3a5f56162810aa1e371620c4c18cc82a}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!file\+Name@{file\+Name}}
+\index{file\+Name@{file\+Name}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{file\+Name}]{\setlength{\rightskip}{0pt plus 5cm}String file\+Name = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a3a5f56162810aa1e371620c4c18cc82a}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_acc7c29517d4ac6fb6eb51b8d9b714728}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!key\+Converter@{key\+Converter}}
+\index{key\+Converter@{key\+Converter}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{key\+Converter}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Key\+Converter} key\+Converter = new {\bf Key\+Converter}()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_acc7c29517d4ac6fb6eb51b8d9b714728}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af2ff13695bae1b9c991aeaa6a7ad3f3c}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!lower\+Keys@{lower\+Keys}}
+\index{lower\+Keys@{lower\+Keys}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{lower\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}String lower\+Keys = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af2ff13695bae1b9c991aeaa6a7ad3f3c}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a77523469bbc99d657ddb184aa2dcb4c7}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!measure\+Length@{measure\+Length}}
+\index{measure\+Length@{measure\+Length}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{measure\+Length}]{\setlength{\rightskip}{0pt plus 5cm}float measure\+Length = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a77523469bbc99d657ddb184aa2dcb4c7}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9a55cb81b8582eb4cbbc0a0ef91db56e}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!measure\+Multiplier@{measure\+Multiplier}}
+\index{measure\+Multiplier@{measure\+Multiplier}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{measure\+Multiplier}]{\setlength{\rightskip}{0pt plus 5cm}int measure\+Multiplier = 1\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9a55cb81b8582eb4cbbc0a0ef91db56e}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aec0bccc7b1362ff3393cf1f13f0f89b1}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!midi\+Tick\+Length@{midi\+Tick\+Length}}
+\index{midi\+Tick\+Length@{midi\+Tick\+Length}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{midi\+Tick\+Length}]{\setlength{\rightskip}{0pt plus 5cm}long midi\+Tick\+Length = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aec0bccc7b1362ff3393cf1f13f0f89b1}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac6d1248a531a8620967406d69edda242}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!N\+O\+T\+E\+\_\+\+O\+F\+F@{N\+O\+T\+E\+\_\+\+O\+F\+F}}
+\index{N\+O\+T\+E\+\_\+\+O\+F\+F@{N\+O\+T\+E\+\_\+\+O\+F\+F}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{N\+O\+T\+E\+\_\+\+O\+F\+F}]{\setlength{\rightskip}{0pt plus 5cm}final int N\+O\+T\+E\+\_\+\+O\+F\+F = 0x80\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac6d1248a531a8620967406d69edda242}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac035f42f6f27179d122b97d54fd030e1}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!N\+O\+T\+E\+\_\+\+O\+N@{N\+O\+T\+E\+\_\+\+O\+N}}
+\index{N\+O\+T\+E\+\_\+\+O\+N@{N\+O\+T\+E\+\_\+\+O\+N}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{N\+O\+T\+E\+\_\+\+O\+N}]{\setlength{\rightskip}{0pt plus 5cm}final int N\+O\+T\+E\+\_\+\+O\+N = 0x90\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac035f42f6f27179d122b97d54fd030e1}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ad1e462120d3438537d08dec3970bc996}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!note\+Value\+In\+Measure@{note\+Value\+In\+Measure}}
+\index{note\+Value\+In\+Measure@{note\+Value\+In\+Measure}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{note\+Value\+In\+Measure}]{\setlength{\rightskip}{0pt plus 5cm}int note\+Value\+In\+Measure = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ad1e462120d3438537d08dec3970bc996}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ae95a908b6894c33a614224f731a53b2d}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!numeric\+Keys@{numeric\+Keys}}
+\index{numeric\+Keys@{numeric\+Keys}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{numeric\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}String numeric\+Keys = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ae95a908b6894c33a614224f731a53b2d}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_abb638d880a4d9f3c793d9dfae2bd5d65}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!other\+Keys@{other\+Keys}}
+\index{other\+Keys@{other\+Keys}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{other\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}String other\+Keys = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_abb638d880a4d9f3c793d9dfae2bd5d65}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aae9bd69432c806ce0c10016839a874a2}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!sequence@{sequence}}
+\index{sequence@{sequence}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{sequence}]{\setlength{\rightskip}{0pt plus 5cm}Sequence sequence = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aae9bd69432c806ce0c10016839a874a2}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a857733a65a16f85598c03acd97305607}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!sequencer@{sequencer}}
+\index{sequencer@{sequencer}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{sequencer}]{\setlength{\rightskip}{0pt plus 5cm}Sequencer sequencer = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a857733a65a16f85598c03acd97305607}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9ade7b0db4d14601924d1d67a9a98c96}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!str\+Time\+Signature\+Info@{str\+Time\+Signature\+Info}}
+\index{str\+Time\+Signature\+Info@{str\+Time\+Signature\+Info}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{str\+Time\+Signature\+Info}]{\setlength{\rightskip}{0pt plus 5cm}String str\+Time\+Signature\+Info = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_a9ade7b0db4d14601924d1d67a9a98c96}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac4000b072e7a320337cc23bfc22de62d}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E@{T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E}}
+\index{T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E@{T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E}]{\setlength{\rightskip}{0pt plus 5cm}final int T\+I\+M\+E\+\_\+\+S\+I\+G\+N\+A\+T\+U\+R\+E = 0x58\hspace{0.3cm}{\ttfamily [static]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac4000b072e7a320337cc23bfc22de62d}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aaa5da6a46779f30b5e491729559ab183}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!tm\+Midi\+Parsed\+Data@{tm\+Midi\+Parsed\+Data}}
+\index{tm\+Midi\+Parsed\+Data@{tm\+Midi\+Parsed\+Data}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{tm\+Midi\+Parsed\+Data}]{\setlength{\rightskip}{0pt plus 5cm}Tree\+Map$<$Long, Array\+List$<$Integer$>$ $>$ tm\+Midi\+Parsed\+Data = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_aaa5da6a46779f30b5e491729559ab183}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac3ef5d55fe6e4c55e06efa4d6a4f05b3}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!tm\+Tracks\+Events@{tm\+Tracks\+Events}}
+\index{tm\+Tracks\+Events@{tm\+Tracks\+Events}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{tm\+Tracks\+Events}]{\setlength{\rightskip}{0pt plus 5cm}Tree\+Map$<$Integer, Array\+List$<$Long$>$ $>$ tm\+Tracks\+Events = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_ac3ef5d55fe6e4c55e06efa4d6a4f05b3}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af186165a05dd64dd883a4697fd0b1d00}{\index{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}!upper\+Keys@{upper\+Keys}}
+\index{upper\+Keys@{upper\+Keys}!com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser@{com\+::lclion\+::midiparser\+::\+M\+I\+D\+I\+Parser}}
+\subsubsection[{upper\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}String upper\+Keys = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser_af186165a05dd64dd883a4697fd0b1d00}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midiparser/\hyperlink{_m_i_d_i_parser_8java}{M\+I\+D\+I\+Parser.\+java}\end{DoxyCompactItemize}

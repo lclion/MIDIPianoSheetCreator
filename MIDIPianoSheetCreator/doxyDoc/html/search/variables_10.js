@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['sc',['sc',['../classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser.html#a851d4b6928a1fc6d70a295c89e42f9d9',1,'com::lclion::midiparser::StringNotesParser']]],
+  ['sd',['sd',['../classcom_1_1lclion_1_1midiparser_1_1_note_colour_converter.html#ac31cda90c1001f063265ba84725dd62e',1,'com::lclion::midiparser::NoteColourConverter']]],
+  ['selectedbutton',['selectedButton',['../classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#acddc2ec0ef9a995af7cb614afbdd3f46',1,'com::lclion::midigui::DialogTrackImport']]],
+  ['separator',['separator',['../classcom_1_1lclion_1_1midigui_1_1_dialog_preferences.html#a450f10fc093a1e45620382f9303a8416',1,'com::lclion::midigui::DialogPreferences']]],
+  ['separator_5f1',['separator_1',['../classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#aa3830aae8fa2c36c0acbe8dfb03688bb',1,'com::lclion::midigui::DialogTrackImport']]],
+  ['sequence',['sequence',['../classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#aae9bd69432c806ce0c10016839a874a2',1,'com.lclion.midiparser.MIDIParser.sequence()'],['../classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#aae9bd69432c806ce0c10016839a874a2',1,'com.lclion.midiplayer.MIDIPlayer.sequence()']]],
+  ['sequencer',['sequencer',['../classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a857733a65a16f85598c03acd97305607',1,'com.lclion.midiparser.MIDIParser.sequencer()'],['../classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a857733a65a16f85598c03acd97305607',1,'com.lclion.midiplayer.MIDIPlayer.sequencer()']]],
+  ['sixteenthnote',['sixteenthNote',['../classcom_1_1lclion_1_1midiparser_1_1_note_value.html#af0442d9703406792637f35a3c4e2b130',1,'com::lclion::midiparser::NoteValue']]],
+  ['sixtyfourthnote',['sixtyFourthNote',['../classcom_1_1lclion_1_1midiparser_1_1_note_value.html#aff6ebf47b5381550caaffc00fa985919',1,'com::lclion::midiparser::NoteValue']]],
+  ['slidertime',['sliderTime',['../classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a8f1c2180a937d6483a4912d602dfe023',1,'com.lclion.midigui.DialogTrackImport.sliderTime()'],['../classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a8f1c2180a937d6483a4912d602dfe023',1,'com.lclion.midigui.JFrameMIDIPianoSheetCreator.sliderTime()']]],
+  ['slidervolume',['sliderVolume',['../classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a71f41e4a3f136fb318fb088bd4695dc2',1,'com.lclion.midigui.DialogTrackImport.sliderVolume()'],['../classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a71f41e4a3f136fb318fb088bd4695dc2',1,'com.lclion.midigui.JFrameMIDIPianoSheetCreator.sliderVolume()']]],
+  ['spinnerspeed',['spinnerSpeed',['../classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a2679c1a277ffcf00ff91ae8bfa676442',1,'com::lclion::midigui::JFrameMIDIPianoSheetCreator']]],
+  ['spkeyeditor',['spKeyEditor',['../classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a19fb25d7d050c69ae47f8f492b4de4c8',1,'com::lclion::midigui::JFrameMIDIPianoSheetCreator']]],
+  ['sptracks',['spTracks',['../classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a844df9120f38157448c7658bc2d8a1a7',1,'com::lclion::midigui::DialogTrackImport']]],
+  ['stringtoparse',['stringToParse',['../classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser.html#affda1ac66ff7fe4869f395974d539adc',1,'com::lclion::midiparser::StringNotesParser']]],
+  ['strtimesignatureinfo',['strTimeSignatureInfo',['../classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a9ade7b0db4d14601924d1d67a9a98c96',1,'com::lclion::midiparser::MIDIParser']]],
+  ['synth',['synth',['../classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a4356e5541666df1f482a781ea4f6ff42',1,'com::lclion::midiplayer::MIDIPlayer']]]
+];

@@ -1,0 +1,111 @@
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser}{\section{String\+Notes\+Parser Class Reference}
+\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser}\index{String\+Notes\+Parser@{String\+Notes\+Parser}}
+}
+
+
+Collaboration diagram for String\+Notes\+Parser\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=261pt]{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a598cb026a05b3ea58cc9d5b9124c0001}{String\+Notes\+Parser} (String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_affda1ac66ff7fe4869f395974d539adc}{string\+To\+Parse})
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a01b964ea248967218b88e1d6558592cd}{get\+Next\+Notes} ()
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a16e67d67362fc128a3bd84faccda8422}{get\+Off\+Set} ()
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_aab0d4bbd0884d04dbe281cc2b9d21206}{get\+Length} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a2c58052b399ad0a04348e645f46f527b}{setup\+Event\+Trigger\+Notes} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_affda1ac66ff7fe4869f395974d539adc}{string\+To\+Parse} = null
+\item 
+Scanner \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a851d4b6928a1fc6d70a295c89e42f9d9}{sc} = null
+\item 
+Array\+List$<$ String $>$ \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a0cbdfa4f6c165959c00f71afb7a4b65e}{event\+Trigger\+Notes} = new Array\+List$<$String$>$()
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a617a47c70795bcff659815ad0efd2266}{counter} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a598cb026a05b3ea58cc9d5b9124c0001}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!String\+Notes\+Parser@{String\+Notes\+Parser}}
+\index{String\+Notes\+Parser@{String\+Notes\+Parser}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{String\+Notes\+Parser}]{\setlength{\rightskip}{0pt plus 5cm}{\bf String\+Notes\+Parser} (
+\begin{DoxyParamCaption}
+\item[{String}]{string\+To\+Parse}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a598cb026a05b3ea58cc9d5b9124c0001}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=331pt]{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a598cb026a05b3ea58cc9d5b9124c0001_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_aab0d4bbd0884d04dbe281cc2b9d21206}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!get\+Length@{get\+Length}}
+\index{get\+Length@{get\+Length}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{get\+Length}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_aab0d4bbd0884d04dbe281cc2b9d21206}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a01b964ea248967218b88e1d6558592cd}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!get\+Next\+Notes@{get\+Next\+Notes}}
+\index{get\+Next\+Notes@{get\+Next\+Notes}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{get\+Next\+Notes}]{\setlength{\rightskip}{0pt plus 5cm}String get\+Next\+Notes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a01b964ea248967218b88e1d6558592cd}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a16e67d67362fc128a3bd84faccda8422}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!get\+Off\+Set@{get\+Off\+Set}}
+\index{get\+Off\+Set@{get\+Off\+Set}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{get\+Off\+Set}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Off\+Set (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a16e67d67362fc128a3bd84faccda8422}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a2c58052b399ad0a04348e645f46f527b}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!setup\+Event\+Trigger\+Notes@{setup\+Event\+Trigger\+Notes}}
+\index{setup\+Event\+Trigger\+Notes@{setup\+Event\+Trigger\+Notes}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{setup\+Event\+Trigger\+Notes}]{\setlength{\rightskip}{0pt plus 5cm}void setup\+Event\+Trigger\+Notes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a2c58052b399ad0a04348e645f46f527b}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a617a47c70795bcff659815ad0efd2266}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!counter@{counter}}
+\index{counter@{counter}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{counter}]{\setlength{\rightskip}{0pt plus 5cm}int counter = 0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a617a47c70795bcff659815ad0efd2266}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a0cbdfa4f6c165959c00f71afb7a4b65e}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!event\+Trigger\+Notes@{event\+Trigger\+Notes}}
+\index{event\+Trigger\+Notes@{event\+Trigger\+Notes}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{event\+Trigger\+Notes}]{\setlength{\rightskip}{0pt plus 5cm}Array\+List$<$String$>$ event\+Trigger\+Notes = new Array\+List$<$String$>$()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a0cbdfa4f6c165959c00f71afb7a4b65e}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a851d4b6928a1fc6d70a295c89e42f9d9}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!sc@{sc}}
+\index{sc@{sc}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{sc}]{\setlength{\rightskip}{0pt plus 5cm}Scanner sc = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_a851d4b6928a1fc6d70a295c89e42f9d9}
+\hypertarget{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_affda1ac66ff7fe4869f395974d539adc}{\index{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}!string\+To\+Parse@{string\+To\+Parse}}
+\index{string\+To\+Parse@{string\+To\+Parse}!com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser@{com\+::lclion\+::midiparser\+::\+String\+Notes\+Parser}}
+\subsubsection[{string\+To\+Parse}]{\setlength{\rightskip}{0pt plus 5cm}String string\+To\+Parse = null\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midiparser_1_1_string_notes_parser_affda1ac66ff7fe4869f395974d539adc}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midiparser/\hyperlink{_string_notes_parser_8java}{String\+Notes\+Parser.\+java}\end{DoxyCompactItemize}

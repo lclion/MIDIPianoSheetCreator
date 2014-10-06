@@ -1,0 +1,198 @@
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences}{\section{Dialog\+Preferences Class Reference}
+\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences}\index{Dialog\+Preferences@{Dialog\+Preferences}}
+}
+
+
+The main preference window where users can configure how M\+I\+D\+I files get imported.  
+
+
+
+
+Collaboration diagram for Dialog\+Preferences\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a3a976528242fb285edfa4844685b2682}{Dialog\+Preferences} (J\+Frame parent)
+\item 
+boolean \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a7550ebb9d4b246937d72d6967e5c1c81}{is\+Custom\+Measure} ()
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aecf15bd6d5f5cb5cc99fc780b0f992d9}{get\+Measures} ()
+\item 
+boolean \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a9db6e6d7e71ab42a67aa837f223ba8e1}{is\+Advanced\+Track\+Import} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a67110efd36dc5fb48cd3086a11e39247}{toggle\+Enable\+Time\+Sig} (boolean value)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ab06a00ad2b6aba181568158e22a6490d}{toggle\+Enable\+New\+Line\+Placement} (boolean value)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final J\+Panel \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ac383c7b38c74b9e1cc245a00de4fbb5e}{content\+Panel} = new J\+Panel()
+\item 
+J\+Radio\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aa403bc56221bd1af763dbf31f90a8902}{rdbtn\+Auto\+Time\+Sig}
+\item 
+J\+Radio\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ad09e056f314ee875a2c70236299d5633}{rdbtn\+Custom\+Time\+Sig}
+\item 
+J\+Text\+Field \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a1df6442c69813ef29777fef773a4c0f9}{tf\+Top}
+\item 
+J\+Text\+Field \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ad2edc1b54d80700468be7da4535d3fc3}{tf\+Bottom}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a992b76652c560915d4f052a8718a72dd}{lbl\+Time\+Signature\+Is}
+\item 
+J\+Layered\+Pane \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_af502e5d406164d232cafc3abdee20dbd}{lp\+New\+Line\+Placement}
+\item 
+J\+Radio\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a541603f796912a6a5e40a885d18c2b6d}{rdbtn\+Measure\+Bar}
+\item 
+J\+Radio\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a4a8eba2702fef7e4d27fa65343a9c637}{rdbtn\+No\+Measure}
+\item 
+J\+Text\+Field \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a66ef301f8f1ef71c2843bb6c2669a86c}{tf\+Measure}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a923dbec9d9737f58a391ded48df38504}{lbl\+A\+New\+Line}
+\item 
+J\+Layered\+Pane \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a03355431be865e450f20710c67681712}{lp\+Advanced\+Import\+Options}
+\item 
+J\+Radio\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aaae7fc9e14a38f469e6893b83d5f612c}{rdbtn\+Use\+Advanced\+Import}
+\item 
+J\+Radio\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a0940277a2ce216beea0ccf7a09a00f96}{rdbtn\+Use\+Default\+Setting}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a2dfc8604454d799fbab2f9f80c8fb163}{lbl\+Measures\+Bars}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a4be52faa93d3abb805ffecdc6048bb14}{lbl\+Divider}
+\item 
+J\+Separator \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a450f10fc093a1e45620382f9303a8416}{separator}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The main preference window where users can configure how M\+I\+D\+I files get imported. 
+
+\begin{DoxyAuthor}{Author}
+L\+C Lion 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a3a976528242fb285edfa4844685b2682}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!Dialog\+Preferences@{Dialog\+Preferences}}
+\index{Dialog\+Preferences@{Dialog\+Preferences}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{Dialog\+Preferences}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+Preferences} (
+\begin{DoxyParamCaption}
+\item[{J\+Frame}]{parent}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a3a976528242fb285edfa4844685b2682}
+Create the dialog. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a3a976528242fb285edfa4844685b2682_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aecf15bd6d5f5cb5cc99fc780b0f992d9}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!get\+Measures@{get\+Measures}}
+\index{get\+Measures@{get\+Measures}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{get\+Measures}]{\setlength{\rightskip}{0pt plus 5cm}int get\+Measures (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aecf15bd6d5f5cb5cc99fc780b0f992d9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a9db6e6d7e71ab42a67aa837f223ba8e1}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!is\+Advanced\+Track\+Import@{is\+Advanced\+Track\+Import}}
+\index{is\+Advanced\+Track\+Import@{is\+Advanced\+Track\+Import}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{is\+Advanced\+Track\+Import}]{\setlength{\rightskip}{0pt plus 5cm}boolean is\+Advanced\+Track\+Import (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a9db6e6d7e71ab42a67aa837f223ba8e1}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a7550ebb9d4b246937d72d6967e5c1c81}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!is\+Custom\+Measure@{is\+Custom\+Measure}}
+\index{is\+Custom\+Measure@{is\+Custom\+Measure}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{is\+Custom\+Measure}]{\setlength{\rightskip}{0pt plus 5cm}boolean is\+Custom\+Measure (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a7550ebb9d4b246937d72d6967e5c1c81}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ab06a00ad2b6aba181568158e22a6490d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!toggle\+Enable\+New\+Line\+Placement@{toggle\+Enable\+New\+Line\+Placement}}
+\index{toggle\+Enable\+New\+Line\+Placement@{toggle\+Enable\+New\+Line\+Placement}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{toggle\+Enable\+New\+Line\+Placement}]{\setlength{\rightskip}{0pt plus 5cm}void toggle\+Enable\+New\+Line\+Placement (
+\begin{DoxyParamCaption}
+\item[{boolean}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ab06a00ad2b6aba181568158e22a6490d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a67110efd36dc5fb48cd3086a11e39247}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!toggle\+Enable\+Time\+Sig@{toggle\+Enable\+Time\+Sig}}
+\index{toggle\+Enable\+Time\+Sig@{toggle\+Enable\+Time\+Sig}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{toggle\+Enable\+Time\+Sig}]{\setlength{\rightskip}{0pt plus 5cm}void toggle\+Enable\+Time\+Sig (
+\begin{DoxyParamCaption}
+\item[{boolean}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a67110efd36dc5fb48cd3086a11e39247}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ac383c7b38c74b9e1cc245a00de4fbb5e}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!content\+Panel@{content\+Panel}}
+\index{content\+Panel@{content\+Panel}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{content\+Panel}]{\setlength{\rightskip}{0pt plus 5cm}final J\+Panel content\+Panel = new J\+Panel()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ac383c7b38c74b9e1cc245a00de4fbb5e}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a923dbec9d9737f58a391ded48df38504}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!lbl\+A\+New\+Line@{lbl\+A\+New\+Line}}
+\index{lbl\+A\+New\+Line@{lbl\+A\+New\+Line}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{lbl\+A\+New\+Line}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+A\+New\+Line\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a923dbec9d9737f58a391ded48df38504}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a4be52faa93d3abb805ffecdc6048bb14}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!lbl\+Divider@{lbl\+Divider}}
+\index{lbl\+Divider@{lbl\+Divider}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{lbl\+Divider}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+Divider\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a4be52faa93d3abb805ffecdc6048bb14}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a2dfc8604454d799fbab2f9f80c8fb163}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!lbl\+Measures\+Bars@{lbl\+Measures\+Bars}}
+\index{lbl\+Measures\+Bars@{lbl\+Measures\+Bars}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{lbl\+Measures\+Bars}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+Measures\+Bars\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a2dfc8604454d799fbab2f9f80c8fb163}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a992b76652c560915d4f052a8718a72dd}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!lbl\+Time\+Signature\+Is@{lbl\+Time\+Signature\+Is}}
+\index{lbl\+Time\+Signature\+Is@{lbl\+Time\+Signature\+Is}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{lbl\+Time\+Signature\+Is}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+Time\+Signature\+Is\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a992b76652c560915d4f052a8718a72dd}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a03355431be865e450f20710c67681712}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!lp\+Advanced\+Import\+Options@{lp\+Advanced\+Import\+Options}}
+\index{lp\+Advanced\+Import\+Options@{lp\+Advanced\+Import\+Options}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{lp\+Advanced\+Import\+Options}]{\setlength{\rightskip}{0pt plus 5cm}J\+Layered\+Pane lp\+Advanced\+Import\+Options\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a03355431be865e450f20710c67681712}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_af502e5d406164d232cafc3abdee20dbd}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!lp\+New\+Line\+Placement@{lp\+New\+Line\+Placement}}
+\index{lp\+New\+Line\+Placement@{lp\+New\+Line\+Placement}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{lp\+New\+Line\+Placement}]{\setlength{\rightskip}{0pt plus 5cm}J\+Layered\+Pane lp\+New\+Line\+Placement\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_af502e5d406164d232cafc3abdee20dbd}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aa403bc56221bd1af763dbf31f90a8902}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!rdbtn\+Auto\+Time\+Sig@{rdbtn\+Auto\+Time\+Sig}}
+\index{rdbtn\+Auto\+Time\+Sig@{rdbtn\+Auto\+Time\+Sig}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{rdbtn\+Auto\+Time\+Sig}]{\setlength{\rightskip}{0pt plus 5cm}J\+Radio\+Button rdbtn\+Auto\+Time\+Sig\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aa403bc56221bd1af763dbf31f90a8902}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ad09e056f314ee875a2c70236299d5633}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!rdbtn\+Custom\+Time\+Sig@{rdbtn\+Custom\+Time\+Sig}}
+\index{rdbtn\+Custom\+Time\+Sig@{rdbtn\+Custom\+Time\+Sig}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{rdbtn\+Custom\+Time\+Sig}]{\setlength{\rightskip}{0pt plus 5cm}J\+Radio\+Button rdbtn\+Custom\+Time\+Sig\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ad09e056f314ee875a2c70236299d5633}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a541603f796912a6a5e40a885d18c2b6d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!rdbtn\+Measure\+Bar@{rdbtn\+Measure\+Bar}}
+\index{rdbtn\+Measure\+Bar@{rdbtn\+Measure\+Bar}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{rdbtn\+Measure\+Bar}]{\setlength{\rightskip}{0pt plus 5cm}J\+Radio\+Button rdbtn\+Measure\+Bar\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a541603f796912a6a5e40a885d18c2b6d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a4a8eba2702fef7e4d27fa65343a9c637}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!rdbtn\+No\+Measure@{rdbtn\+No\+Measure}}
+\index{rdbtn\+No\+Measure@{rdbtn\+No\+Measure}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{rdbtn\+No\+Measure}]{\setlength{\rightskip}{0pt plus 5cm}J\+Radio\+Button rdbtn\+No\+Measure\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a4a8eba2702fef7e4d27fa65343a9c637}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aaae7fc9e14a38f469e6893b83d5f612c}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!rdbtn\+Use\+Advanced\+Import@{rdbtn\+Use\+Advanced\+Import}}
+\index{rdbtn\+Use\+Advanced\+Import@{rdbtn\+Use\+Advanced\+Import}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{rdbtn\+Use\+Advanced\+Import}]{\setlength{\rightskip}{0pt plus 5cm}J\+Radio\+Button rdbtn\+Use\+Advanced\+Import\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_aaae7fc9e14a38f469e6893b83d5f612c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a0940277a2ce216beea0ccf7a09a00f96}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!rdbtn\+Use\+Default\+Setting@{rdbtn\+Use\+Default\+Setting}}
+\index{rdbtn\+Use\+Default\+Setting@{rdbtn\+Use\+Default\+Setting}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{rdbtn\+Use\+Default\+Setting}]{\setlength{\rightskip}{0pt plus 5cm}J\+Radio\+Button rdbtn\+Use\+Default\+Setting\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a0940277a2ce216beea0ccf7a09a00f96}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a450f10fc093a1e45620382f9303a8416}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!separator@{separator}}
+\index{separator@{separator}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{separator}]{\setlength{\rightskip}{0pt plus 5cm}J\+Separator separator\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a450f10fc093a1e45620382f9303a8416}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ad2edc1b54d80700468be7da4535d3fc3}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!tf\+Bottom@{tf\+Bottom}}
+\index{tf\+Bottom@{tf\+Bottom}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{tf\+Bottom}]{\setlength{\rightskip}{0pt plus 5cm}J\+Text\+Field tf\+Bottom\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_ad2edc1b54d80700468be7da4535d3fc3}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a66ef301f8f1ef71c2843bb6c2669a86c}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!tf\+Measure@{tf\+Measure}}
+\index{tf\+Measure@{tf\+Measure}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{tf\+Measure}]{\setlength{\rightskip}{0pt plus 5cm}J\+Text\+Field tf\+Measure\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a66ef301f8f1ef71c2843bb6c2669a86c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a1df6442c69813ef29777fef773a4c0f9}{\index{com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}!tf\+Top@{tf\+Top}}
+\index{tf\+Top@{tf\+Top}!com\+::lclion\+::midigui\+::\+Dialog\+Preferences@{com\+::lclion\+::midigui\+::\+Dialog\+Preferences}}
+\subsubsection[{tf\+Top}]{\setlength{\rightskip}{0pt plus 5cm}J\+Text\+Field tf\+Top\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_preferences_a1df6442c69813ef29777fef773a4c0f9}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midigui/\hyperlink{_dialog_preferences_8java}{Dialog\+Preferences.\+java}\end{DoxyCompactItemize}

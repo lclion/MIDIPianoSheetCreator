@@ -1,0 +1,5 @@
+<map id="DialogTrackImport" name="DialogTrackImport">
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midiparser_1_1_patch_converter.html" title="Convert MIDI Patch Numbers to corresponding instrument name. " alt="" coords="319,68,430,94"/>
+<area shape="rect" id="node23" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html" title="The main parser that parses MIDI file into readable notes. " alt="" coords="331,118,418,145"/>
+<area shape="rect" id="node16" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html" title="A MIDIPlayer that manages the playback of MIDI files. " alt="" coords="332,170,417,197"/>
+</map>

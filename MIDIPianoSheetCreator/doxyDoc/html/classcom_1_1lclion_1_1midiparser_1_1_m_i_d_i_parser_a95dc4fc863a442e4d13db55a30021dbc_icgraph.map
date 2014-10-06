@@ -1,0 +1,10 @@
+<map id="addKey" name="addKey">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a0d273c8df789364bd05888eec0d887a1" title="convertMidiNumToKeys" alt="" coords="120,31,279,57"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a79cff8d5b2c0721d1871f65536fca8aa" title="parseMIDI" alt="" coords="327,5,407,32"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a1a6947c3e60f6f74022834f05b71d8b3" title="parseData" alt="" coords="327,56,408,83"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midiparser_1_1_m_i_d_i_parser.html#a6356cc4e4568eaf610999c4b32431749" title="retrieveMidiData" alt="" coords="456,56,571,83"/>
+<area shape="rect" id="node6" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a2ec034a8f00a81096e52e15c9a4af6a0" title="com.lclion.midigui.Dialog\lTrackImport.DialogTrackImport" alt="" coords="635,15,833,57"/>
+<area shape="rect" id="node7" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a48db1e242ba2acdb007ab6e8f5c245c6" title="Initialise the menus in the main window. " alt="" coords="619,81,849,122"/>
+<area shape="rect" id="node8" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a0b0e9cd41d19d9cb52443c381a519994" title="Initialise Menu Bars related to this window. " alt="" coords="897,81,1128,122"/>
+<area shape="rect" id="node9" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#aa7344d98b77fcf456e4333719d4e4a34" title="com.lclion.midigui.JFrame\lMIDIPianoSheetCreator.JFrameMIDIPiano\lSheetCreator" alt="" coords="1176,73,1439,129"/>
+</map>

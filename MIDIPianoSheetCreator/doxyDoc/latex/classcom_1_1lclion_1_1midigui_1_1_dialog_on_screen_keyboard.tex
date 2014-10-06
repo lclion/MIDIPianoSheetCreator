@@ -1,0 +1,510 @@
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard}{\section{Dialog\+On\+Screen\+Keyboard Class Reference}
+\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard}\index{Dialog\+On\+Screen\+Keyboard@{Dialog\+On\+Screen\+Keyboard}}
+}
+
+
+Displays a preview of a Q\+W\+E\+R\+T\+Y keyboard, indicating the current note played from the main window.  
+
+
+
+
+Collaboration diagram for Dialog\+On\+Screen\+Keyboard\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac5f684ded8b7d9c9bb8f3fef7d5f6ebc}{Dialog\+On\+Screen\+Keyboard} (final J\+Frame parent)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae11e61d422e0ffcfde71c2c8d22e8125}{highlight\+Keys} (String keys\+To\+Highlight)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa6b620d240a70e879d6c4c94c2cddadf}{set\+Text} (String parsed\+Data)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae91f8f91ce33c821d70b3d5e09c08cc7}{update\+Current\+Note\+Label} (String current\+Note)
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae2176f8320d6a67ec81ce53e3b0df321}{clear\+Highlights} ()
+\item 
+void \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8bb16dd8ea1ccc12b8032d397ab8b3e9}{toggle\+Components} (J\+Layered\+Pane container, boolean enable)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a78dc3704e7e01da52c9a93a70c5bc45d}{font\+Size} = 14
+\item 
+int \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aec4029056965b8b1d9e30178aa258e71}{font\+Style} = Font.\+B\+O\+L\+D
+\item 
+String \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ab0f8a5a46d90946fe20e323cbc10384f}{font\+Family} = \char`\"{}Tahoma\char`\"{}
+\item 
+Color \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6213a3fc55162f385ecf68112b98d6cf}{clr\+Lower\+Case} = new Color(0, 153, 0)
+\item 
+Color \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a18bfeb811deb62b61ddeb555174ca785}{clr\+Upper\+Case} = new Color(255, 0, 0)
+\item 
+Color \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a07f32e805fc4b2bb4953e4fc63ac0c3c}{clr\+Default\+Background} = new Color(255, 255, 255)
+\item 
+Color \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa8736f6d433f5918da7935630e4491d9}{clr\+Default\+Foreground} = new Color(255, 255, 255)
+\item 
+final J\+Panel \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac383c7b38c74b9e1cc245a00de4fbb5e}{content\+Panel} = new J\+Panel()
+\item 
+J\+Layered\+Pane \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a90de2803c72845b70771d7326d038f45}{layered\+Pane}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a2d7738272489586031bc93d39302aed9}{btn\+Tilda}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a2c3163c016e15ebbb4071599c1d15029}{btn1}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa093c8b4f751c9c929117324fb2ccb0c}{btn2}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aaff3703d264eab6c3f736790b6535faa}{btn3}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac426d68c2e7a84c6b7ce057c1be96f74}{btn4}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6987bceedd9d1cadf7b24b1426f4ffd6}{btn5}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae94729859505651df0186afd93a55f3a}{btn6}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8cce3d18dfb219ac20321fd0f66ac21c}{btn7}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa781873bcc563594efcf281a6196e52f}{btn8}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a22c8181bc00931a15d201154c28c0aff}{btn9}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a38cfd1e15e0f3542b16c4b3e413df733}{btn0}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad781fc7a840a15bb7c7707d1d909176a}{btn\+Tab}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a57bb93658a349e6c2ecf7be5811869c4}{btn\+Q}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a95f5495566cf1ce41a3dcdeecf4ec242}{btn\+W}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aab5a0eb82195c831ebdd86b721d70d2f}{btn\+E}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad203cb9fabff2fe0e0768dc8b347f84d}{btn\+R}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad28bed9f4636752c166720536df81332}{btn\+T}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae08fc1d8a7a3aadb9c5a3a3961495839}{btn\+U}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a97c660d9d6bdd8feb471d8fc5c7db2c0}{btn\+I}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a73a3757d23cd3530b13b3d13629874cf}{btn\+O}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1dfa67c9987734db4c0042b092fed42c}{btn\+P}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac209a6c2fffe7ac528b96eed8e8580d5}{btn\+Y}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad837540dd78a68fa4a9de57214bbd3d8}{btn\+Caps\+Lock}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1e8b342c7fe8b296c098ddce1ae1d7b2}{btn\+A}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a054a67bc166a83efa481b49a6d6024eb}{btn\+S}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a89073807d2322dc0c1e5f828fbb76764}{btn\+D}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a64af979f8cb527c387b69ff58c4f1120}{btn\+F}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a87f9f3a6ee563233c354a5b39b9cc54a}{btn\+G}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a9531fabd22b34462f4a7918e72f60ac7}{btn\+J}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1fabae8535d894d70bde32a11be3d376}{btn\+K}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a79e6c03d54b3d704811e7c9e4c67d5d2}{btn\+L}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ab44b089f992b314233069b2d53a2fc54}{btn\+H}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a0a16dbfc7b21d8782aefcfb5b11e4ce8}{btn\+Shift\+Left}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa22f6a6fb7a890cd8ec5022973c923ea}{btn\+Z}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a17e4aaf74e496f1708a8996ad6f9168f}{btn\+X}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a108c048ae6e4a0db145ee98ea9df481f}{btn\+C}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aadd7043de06b30089cb9b8ca0943a5ea}{btn\+V}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a34a37d547948df48303ba0103cde59de}{btn\+B}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af47ad194bb3c4931c47c17f5d9ec98c4}{btn\+M}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a99f24b18e5f535f5666b073fe414fdfa}{btn\+N}
+\item 
+J\+Check\+Box \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a9aaed51dba7caa44dc53b28e7acc096d}{chckbx\+Highlight\+Left\+Shift}
+\item 
+J\+Check\+Box \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8dd6d82143f4aedba6236c67bf6c733f}{chckbx\+Enable\+Fade}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a5d7ba779d4e74df2616b1a5fb6fdbdfd}{btn\+Minus}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aeccc007709a2413953c476a47633484d}{btn\+Equal}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af531e3a095c123589a66fc5aa9373067}{btn\+Backspace}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad6c00cf5c5a45173be827dafa072041b}{btn\+Square\+Bracket\+Open}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a35b8fdc6e8d3dd6062dc18572df13e7d}{btn\+Square\+Bracket\+Close}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afcc98561cbf032feebf7b1538b1ba688}{btn\+Backslash}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afbc77b1edd4a0583a8e7699a9f15ded7}{btn\+Semicolon}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af8bd4bb6dd42d1f0c8b9432a7b3dd5e5}{btn\+Apostraphe}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad7ed480b341e2e453e5857f54f2c0574}{btn\+Enter}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a78351a2292cd2bb5e405a7fb63bde8da}{btn\+Comma}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a4d5afe8ca2d30a690e44801559516daa}{btn\+Full\+Stop}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afc4fa10ed9a8c74b5ba3976b0f9513ef}{btn\+Forward\+Slash}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae375d25d5103fe59e93bfe78bf894722}{btn\+Shift\+Right}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a79eb966f6f33a2cd4f9d46cd50a7d480}{btn\+Ctrl\+Left}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1f5a6207904a8e20962cd520ea141d9b}{btn\+Win\+Left}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae9d61f4815d45ac8888e4a7bf4344cc1}{btn\+Alt\+Left}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a5bffdd7e1b028002ae5b5464a4a289b9}{btn\+Space}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a3deb641d54b510ef4243b41c235d7d26}{btn\+Alt\+Right}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a7820654d38a637ac4cc0150639d8f99e}{btn\+Win\+Right}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a3aaad9ec5791601fbc2c85c6c87e73de}{btn\+Context}
+\item 
+J\+Button \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aaa66232d265147ac72c937bf5569bacc}{btn\+Ctrl\+Right}
+\item 
+J\+Check\+Box \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a439f5c81e352809a4343216fbaf9a5c8}{chckbx\+Highlight\+Right\+Shift}
+\item 
+J\+Check\+Box \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad4773803d6cd9e0515570c744f580f20}{chckbx\+Enable\+Text\+Coloring}
+\item 
+J\+Check\+Box \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6b0daa2762d684f43a1ef4e4aaca718d}{chckbx\+Enable\+Background\+Highlighting}
+\item 
+J\+Label \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a97722586d2e85bb697b3512b1fcbf729}{lbl\+Current\+Note}
+\item 
+J\+Check\+Box \hyperlink{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afb212360a6ff5330b0ca37ea40c372a8}{chckbx\+Always\+On\+Top}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Displays a preview of a Q\+W\+E\+R\+T\+Y keyboard, indicating the current note played from the main window. 
+
+\begin{DoxyAuthor}{Author}
+L\+C Lion 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac5f684ded8b7d9c9bb8f3fef7d5f6ebc}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!Dialog\+On\+Screen\+Keyboard@{Dialog\+On\+Screen\+Keyboard}}
+\index{Dialog\+On\+Screen\+Keyboard@{Dialog\+On\+Screen\+Keyboard}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{Dialog\+On\+Screen\+Keyboard}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dialog\+On\+Screen\+Keyboard} (
+\begin{DoxyParamCaption}
+\item[{final J\+Frame}]{parent}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac5f684ded8b7d9c9bb8f3fef7d5f6ebc}
+Create the dialog. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac5f684ded8b7d9c9bb8f3fef7d5f6ebc_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae2176f8320d6a67ec81ce53e3b0df321}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!clear\+Highlights@{clear\+Highlights}}
+\index{clear\+Highlights@{clear\+Highlights}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{clear\+Highlights}]{\setlength{\rightskip}{0pt plus 5cm}void clear\+Highlights (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae2176f8320d6a67ec81ce53e3b0df321}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae11e61d422e0ffcfde71c2c8d22e8125}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!highlight\+Keys@{highlight\+Keys}}
+\index{highlight\+Keys@{highlight\+Keys}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{highlight\+Keys}]{\setlength{\rightskip}{0pt plus 5cm}void highlight\+Keys (
+\begin{DoxyParamCaption}
+\item[{String}]{keys\+To\+Highlight}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae11e61d422e0ffcfde71c2c8d22e8125}
+
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae11e61d422e0ffcfde71c2c8d22e8125_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa6b620d240a70e879d6c4c94c2cddadf}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!set\+Text@{set\+Text}}
+\index{set\+Text@{set\+Text}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{set\+Text}]{\setlength{\rightskip}{0pt plus 5cm}void set\+Text (
+\begin{DoxyParamCaption}
+\item[{String}]{parsed\+Data}
+\end{DoxyParamCaption}
+)}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa6b620d240a70e879d6c4c94c2cddadf}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8bb16dd8ea1ccc12b8032d397ab8b3e9}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!toggle\+Components@{toggle\+Components}}
+\index{toggle\+Components@{toggle\+Components}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{toggle\+Components}]{\setlength{\rightskip}{0pt plus 5cm}void toggle\+Components (
+\begin{DoxyParamCaption}
+\item[{J\+Layered\+Pane}]{container, }
+\item[{boolean}]{enable}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8bb16dd8ea1ccc12b8032d397ab8b3e9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae91f8f91ce33c821d70b3d5e09c08cc7}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!update\+Current\+Note\+Label@{update\+Current\+Note\+Label}}
+\index{update\+Current\+Note\+Label@{update\+Current\+Note\+Label}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{update\+Current\+Note\+Label}]{\setlength{\rightskip}{0pt plus 5cm}void update\+Current\+Note\+Label (
+\begin{DoxyParamCaption}
+\item[{String}]{current\+Note}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae91f8f91ce33c821d70b3d5e09c08cc7}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a38cfd1e15e0f3542b16c4b3e413df733}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn0@{btn0}}
+\index{btn0@{btn0}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn0}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn0\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a38cfd1e15e0f3542b16c4b3e413df733}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a2c3163c016e15ebbb4071599c1d15029}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn1@{btn1}}
+\index{btn1@{btn1}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn1}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn1\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a2c3163c016e15ebbb4071599c1d15029}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa093c8b4f751c9c929117324fb2ccb0c}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn2@{btn2}}
+\index{btn2@{btn2}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn2}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn2\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa093c8b4f751c9c929117324fb2ccb0c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aaff3703d264eab6c3f736790b6535faa}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn3@{btn3}}
+\index{btn3@{btn3}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn3}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn3\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aaff3703d264eab6c3f736790b6535faa}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac426d68c2e7a84c6b7ce057c1be96f74}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn4@{btn4}}
+\index{btn4@{btn4}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn4}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn4\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac426d68c2e7a84c6b7ce057c1be96f74}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6987bceedd9d1cadf7b24b1426f4ffd6}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn5@{btn5}}
+\index{btn5@{btn5}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn5}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn5\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6987bceedd9d1cadf7b24b1426f4ffd6}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae94729859505651df0186afd93a55f3a}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn6@{btn6}}
+\index{btn6@{btn6}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn6}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn6\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae94729859505651df0186afd93a55f3a}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8cce3d18dfb219ac20321fd0f66ac21c}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn7@{btn7}}
+\index{btn7@{btn7}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn7}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn7\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8cce3d18dfb219ac20321fd0f66ac21c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa781873bcc563594efcf281a6196e52f}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn8@{btn8}}
+\index{btn8@{btn8}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn8}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn8\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa781873bcc563594efcf281a6196e52f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a22c8181bc00931a15d201154c28c0aff}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn9@{btn9}}
+\index{btn9@{btn9}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn9}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn9\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a22c8181bc00931a15d201154c28c0aff}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1e8b342c7fe8b296c098ddce1ae1d7b2}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+A@{btn\+A}}
+\index{btn\+A@{btn\+A}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+A}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+A\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1e8b342c7fe8b296c098ddce1ae1d7b2}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae9d61f4815d45ac8888e4a7bf4344cc1}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Alt\+Left@{btn\+Alt\+Left}}
+\index{btn\+Alt\+Left@{btn\+Alt\+Left}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Alt\+Left}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Alt\+Left\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae9d61f4815d45ac8888e4a7bf4344cc1}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a3deb641d54b510ef4243b41c235d7d26}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Alt\+Right@{btn\+Alt\+Right}}
+\index{btn\+Alt\+Right@{btn\+Alt\+Right}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Alt\+Right}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Alt\+Right\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a3deb641d54b510ef4243b41c235d7d26}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af8bd4bb6dd42d1f0c8b9432a7b3dd5e5}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Apostraphe@{btn\+Apostraphe}}
+\index{btn\+Apostraphe@{btn\+Apostraphe}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Apostraphe}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Apostraphe\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af8bd4bb6dd42d1f0c8b9432a7b3dd5e5}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a34a37d547948df48303ba0103cde59de}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+B@{btn\+B}}
+\index{btn\+B@{btn\+B}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+B}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+B\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a34a37d547948df48303ba0103cde59de}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afcc98561cbf032feebf7b1538b1ba688}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Backslash@{btn\+Backslash}}
+\index{btn\+Backslash@{btn\+Backslash}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Backslash}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Backslash\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afcc98561cbf032feebf7b1538b1ba688}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af531e3a095c123589a66fc5aa9373067}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Backspace@{btn\+Backspace}}
+\index{btn\+Backspace@{btn\+Backspace}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Backspace}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Backspace\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af531e3a095c123589a66fc5aa9373067}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a108c048ae6e4a0db145ee98ea9df481f}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+C@{btn\+C}}
+\index{btn\+C@{btn\+C}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+C}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+C\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a108c048ae6e4a0db145ee98ea9df481f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad837540dd78a68fa4a9de57214bbd3d8}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Caps\+Lock@{btn\+Caps\+Lock}}
+\index{btn\+Caps\+Lock@{btn\+Caps\+Lock}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Caps\+Lock}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Caps\+Lock\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad837540dd78a68fa4a9de57214bbd3d8}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a78351a2292cd2bb5e405a7fb63bde8da}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Comma@{btn\+Comma}}
+\index{btn\+Comma@{btn\+Comma}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Comma}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Comma\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a78351a2292cd2bb5e405a7fb63bde8da}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a3aaad9ec5791601fbc2c85c6c87e73de}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Context@{btn\+Context}}
+\index{btn\+Context@{btn\+Context}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Context}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Context\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a3aaad9ec5791601fbc2c85c6c87e73de}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a79eb966f6f33a2cd4f9d46cd50a7d480}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Ctrl\+Left@{btn\+Ctrl\+Left}}
+\index{btn\+Ctrl\+Left@{btn\+Ctrl\+Left}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Ctrl\+Left}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Ctrl\+Left\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a79eb966f6f33a2cd4f9d46cd50a7d480}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aaa66232d265147ac72c937bf5569bacc}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Ctrl\+Right@{btn\+Ctrl\+Right}}
+\index{btn\+Ctrl\+Right@{btn\+Ctrl\+Right}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Ctrl\+Right}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Ctrl\+Right\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aaa66232d265147ac72c937bf5569bacc}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a89073807d2322dc0c1e5f828fbb76764}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+D@{btn\+D}}
+\index{btn\+D@{btn\+D}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+D}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+D\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a89073807d2322dc0c1e5f828fbb76764}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aab5a0eb82195c831ebdd86b721d70d2f}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+E@{btn\+E}}
+\index{btn\+E@{btn\+E}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+E}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+E\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aab5a0eb82195c831ebdd86b721d70d2f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad7ed480b341e2e453e5857f54f2c0574}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Enter@{btn\+Enter}}
+\index{btn\+Enter@{btn\+Enter}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Enter}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Enter\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad7ed480b341e2e453e5857f54f2c0574}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aeccc007709a2413953c476a47633484d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Equal@{btn\+Equal}}
+\index{btn\+Equal@{btn\+Equal}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Equal}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Equal\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aeccc007709a2413953c476a47633484d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a64af979f8cb527c387b69ff58c4f1120}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+F@{btn\+F}}
+\index{btn\+F@{btn\+F}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+F}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+F\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a64af979f8cb527c387b69ff58c4f1120}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afc4fa10ed9a8c74b5ba3976b0f9513ef}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Forward\+Slash@{btn\+Forward\+Slash}}
+\index{btn\+Forward\+Slash@{btn\+Forward\+Slash}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Forward\+Slash}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Forward\+Slash\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afc4fa10ed9a8c74b5ba3976b0f9513ef}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a4d5afe8ca2d30a690e44801559516daa}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Full\+Stop@{btn\+Full\+Stop}}
+\index{btn\+Full\+Stop@{btn\+Full\+Stop}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Full\+Stop}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Full\+Stop\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a4d5afe8ca2d30a690e44801559516daa}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a87f9f3a6ee563233c354a5b39b9cc54a}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+G@{btn\+G}}
+\index{btn\+G@{btn\+G}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+G}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+G\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a87f9f3a6ee563233c354a5b39b9cc54a}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ab44b089f992b314233069b2d53a2fc54}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+H@{btn\+H}}
+\index{btn\+H@{btn\+H}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+H}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+H\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ab44b089f992b314233069b2d53a2fc54}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a97c660d9d6bdd8feb471d8fc5c7db2c0}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+I@{btn\+I}}
+\index{btn\+I@{btn\+I}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+I}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+I\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a97c660d9d6bdd8feb471d8fc5c7db2c0}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a9531fabd22b34462f4a7918e72f60ac7}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+J@{btn\+J}}
+\index{btn\+J@{btn\+J}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+J}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+J\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a9531fabd22b34462f4a7918e72f60ac7}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1fabae8535d894d70bde32a11be3d376}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+K@{btn\+K}}
+\index{btn\+K@{btn\+K}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+K}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+K\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1fabae8535d894d70bde32a11be3d376}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a79e6c03d54b3d704811e7c9e4c67d5d2}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+L@{btn\+L}}
+\index{btn\+L@{btn\+L}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+L}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+L\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a79e6c03d54b3d704811e7c9e4c67d5d2}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af47ad194bb3c4931c47c17f5d9ec98c4}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+M@{btn\+M}}
+\index{btn\+M@{btn\+M}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+M}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+M\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_af47ad194bb3c4931c47c17f5d9ec98c4}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a5d7ba779d4e74df2616b1a5fb6fdbdfd}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Minus@{btn\+Minus}}
+\index{btn\+Minus@{btn\+Minus}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Minus}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Minus\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a5d7ba779d4e74df2616b1a5fb6fdbdfd}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a99f24b18e5f535f5666b073fe414fdfa}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+N@{btn\+N}}
+\index{btn\+N@{btn\+N}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+N}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+N\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a99f24b18e5f535f5666b073fe414fdfa}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a73a3757d23cd3530b13b3d13629874cf}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+O@{btn\+O}}
+\index{btn\+O@{btn\+O}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+O}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+O\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a73a3757d23cd3530b13b3d13629874cf}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1dfa67c9987734db4c0042b092fed42c}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+P@{btn\+P}}
+\index{btn\+P@{btn\+P}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+P}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+P\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1dfa67c9987734db4c0042b092fed42c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a57bb93658a349e6c2ecf7be5811869c4}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Q@{btn\+Q}}
+\index{btn\+Q@{btn\+Q}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Q}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Q\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a57bb93658a349e6c2ecf7be5811869c4}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad203cb9fabff2fe0e0768dc8b347f84d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+R@{btn\+R}}
+\index{btn\+R@{btn\+R}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+R}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+R\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad203cb9fabff2fe0e0768dc8b347f84d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a054a67bc166a83efa481b49a6d6024eb}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+S@{btn\+S}}
+\index{btn\+S@{btn\+S}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+S}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+S\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a054a67bc166a83efa481b49a6d6024eb}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afbc77b1edd4a0583a8e7699a9f15ded7}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Semicolon@{btn\+Semicolon}}
+\index{btn\+Semicolon@{btn\+Semicolon}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Semicolon}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Semicolon\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afbc77b1edd4a0583a8e7699a9f15ded7}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a0a16dbfc7b21d8782aefcfb5b11e4ce8}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Shift\+Left@{btn\+Shift\+Left}}
+\index{btn\+Shift\+Left@{btn\+Shift\+Left}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Shift\+Left}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Shift\+Left\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a0a16dbfc7b21d8782aefcfb5b11e4ce8}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae375d25d5103fe59e93bfe78bf894722}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Shift\+Right@{btn\+Shift\+Right}}
+\index{btn\+Shift\+Right@{btn\+Shift\+Right}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Shift\+Right}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Shift\+Right\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae375d25d5103fe59e93bfe78bf894722}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a5bffdd7e1b028002ae5b5464a4a289b9}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Space@{btn\+Space}}
+\index{btn\+Space@{btn\+Space}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Space}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Space\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a5bffdd7e1b028002ae5b5464a4a289b9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a35b8fdc6e8d3dd6062dc18572df13e7d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Square\+Bracket\+Close@{btn\+Square\+Bracket\+Close}}
+\index{btn\+Square\+Bracket\+Close@{btn\+Square\+Bracket\+Close}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Square\+Bracket\+Close}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Square\+Bracket\+Close\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a35b8fdc6e8d3dd6062dc18572df13e7d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad6c00cf5c5a45173be827dafa072041b}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Square\+Bracket\+Open@{btn\+Square\+Bracket\+Open}}
+\index{btn\+Square\+Bracket\+Open@{btn\+Square\+Bracket\+Open}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Square\+Bracket\+Open}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Square\+Bracket\+Open\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad6c00cf5c5a45173be827dafa072041b}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad28bed9f4636752c166720536df81332}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+T@{btn\+T}}
+\index{btn\+T@{btn\+T}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+T}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+T\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad28bed9f4636752c166720536df81332}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad781fc7a840a15bb7c7707d1d909176a}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Tab@{btn\+Tab}}
+\index{btn\+Tab@{btn\+Tab}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Tab}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Tab\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad781fc7a840a15bb7c7707d1d909176a}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a2d7738272489586031bc93d39302aed9}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Tilda@{btn\+Tilda}}
+\index{btn\+Tilda@{btn\+Tilda}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Tilda}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Tilda\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a2d7738272489586031bc93d39302aed9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae08fc1d8a7a3aadb9c5a3a3961495839}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+U@{btn\+U}}
+\index{btn\+U@{btn\+U}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+U}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+U\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ae08fc1d8a7a3aadb9c5a3a3961495839}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aadd7043de06b30089cb9b8ca0943a5ea}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+V@{btn\+V}}
+\index{btn\+V@{btn\+V}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+V}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+V\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aadd7043de06b30089cb9b8ca0943a5ea}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a95f5495566cf1ce41a3dcdeecf4ec242}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+W@{btn\+W}}
+\index{btn\+W@{btn\+W}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+W}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+W\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a95f5495566cf1ce41a3dcdeecf4ec242}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1f5a6207904a8e20962cd520ea141d9b}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Win\+Left@{btn\+Win\+Left}}
+\index{btn\+Win\+Left@{btn\+Win\+Left}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Win\+Left}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Win\+Left\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a1f5a6207904a8e20962cd520ea141d9b}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a7820654d38a637ac4cc0150639d8f99e}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Win\+Right@{btn\+Win\+Right}}
+\index{btn\+Win\+Right@{btn\+Win\+Right}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Win\+Right}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Win\+Right\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a7820654d38a637ac4cc0150639d8f99e}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a17e4aaf74e496f1708a8996ad6f9168f}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+X@{btn\+X}}
+\index{btn\+X@{btn\+X}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+X}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+X\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a17e4aaf74e496f1708a8996ad6f9168f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac209a6c2fffe7ac528b96eed8e8580d5}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Y@{btn\+Y}}
+\index{btn\+Y@{btn\+Y}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Y}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Y\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac209a6c2fffe7ac528b96eed8e8580d5}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa22f6a6fb7a890cd8ec5022973c923ea}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!btn\+Z@{btn\+Z}}
+\index{btn\+Z@{btn\+Z}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{btn\+Z}]{\setlength{\rightskip}{0pt plus 5cm}J\+Button btn\+Z\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa22f6a6fb7a890cd8ec5022973c923ea}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afb212360a6ff5330b0ca37ea40c372a8}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!chckbx\+Always\+On\+Top@{chckbx\+Always\+On\+Top}}
+\index{chckbx\+Always\+On\+Top@{chckbx\+Always\+On\+Top}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{chckbx\+Always\+On\+Top}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box chckbx\+Always\+On\+Top\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_afb212360a6ff5330b0ca37ea40c372a8}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6b0daa2762d684f43a1ef4e4aaca718d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!chckbx\+Enable\+Background\+Highlighting@{chckbx\+Enable\+Background\+Highlighting}}
+\index{chckbx\+Enable\+Background\+Highlighting@{chckbx\+Enable\+Background\+Highlighting}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{chckbx\+Enable\+Background\+Highlighting}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box chckbx\+Enable\+Background\+Highlighting\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6b0daa2762d684f43a1ef4e4aaca718d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8dd6d82143f4aedba6236c67bf6c733f}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!chckbx\+Enable\+Fade@{chckbx\+Enable\+Fade}}
+\index{chckbx\+Enable\+Fade@{chckbx\+Enable\+Fade}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{chckbx\+Enable\+Fade}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box chckbx\+Enable\+Fade\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a8dd6d82143f4aedba6236c67bf6c733f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad4773803d6cd9e0515570c744f580f20}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!chckbx\+Enable\+Text\+Coloring@{chckbx\+Enable\+Text\+Coloring}}
+\index{chckbx\+Enable\+Text\+Coloring@{chckbx\+Enable\+Text\+Coloring}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{chckbx\+Enable\+Text\+Coloring}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box chckbx\+Enable\+Text\+Coloring\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ad4773803d6cd9e0515570c744f580f20}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a9aaed51dba7caa44dc53b28e7acc096d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!chckbx\+Highlight\+Left\+Shift@{chckbx\+Highlight\+Left\+Shift}}
+\index{chckbx\+Highlight\+Left\+Shift@{chckbx\+Highlight\+Left\+Shift}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{chckbx\+Highlight\+Left\+Shift}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box chckbx\+Highlight\+Left\+Shift\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a9aaed51dba7caa44dc53b28e7acc096d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a439f5c81e352809a4343216fbaf9a5c8}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!chckbx\+Highlight\+Right\+Shift@{chckbx\+Highlight\+Right\+Shift}}
+\index{chckbx\+Highlight\+Right\+Shift@{chckbx\+Highlight\+Right\+Shift}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{chckbx\+Highlight\+Right\+Shift}]{\setlength{\rightskip}{0pt plus 5cm}J\+Check\+Box chckbx\+Highlight\+Right\+Shift\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a439f5c81e352809a4343216fbaf9a5c8}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a07f32e805fc4b2bb4953e4fc63ac0c3c}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!clr\+Default\+Background@{clr\+Default\+Background}}
+\index{clr\+Default\+Background@{clr\+Default\+Background}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{clr\+Default\+Background}]{\setlength{\rightskip}{0pt plus 5cm}Color clr\+Default\+Background = new Color(255, 255, 255)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a07f32e805fc4b2bb4953e4fc63ac0c3c}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa8736f6d433f5918da7935630e4491d9}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!clr\+Default\+Foreground@{clr\+Default\+Foreground}}
+\index{clr\+Default\+Foreground@{clr\+Default\+Foreground}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{clr\+Default\+Foreground}]{\setlength{\rightskip}{0pt plus 5cm}Color clr\+Default\+Foreground = new Color(255, 255, 255)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aa8736f6d433f5918da7935630e4491d9}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6213a3fc55162f385ecf68112b98d6cf}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!clr\+Lower\+Case@{clr\+Lower\+Case}}
+\index{clr\+Lower\+Case@{clr\+Lower\+Case}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{clr\+Lower\+Case}]{\setlength{\rightskip}{0pt plus 5cm}Color clr\+Lower\+Case = new Color(0, 153, 0)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a6213a3fc55162f385ecf68112b98d6cf}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a18bfeb811deb62b61ddeb555174ca785}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!clr\+Upper\+Case@{clr\+Upper\+Case}}
+\index{clr\+Upper\+Case@{clr\+Upper\+Case}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{clr\+Upper\+Case}]{\setlength{\rightskip}{0pt plus 5cm}Color clr\+Upper\+Case = new Color(255, 0, 0)\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a18bfeb811deb62b61ddeb555174ca785}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac383c7b38c74b9e1cc245a00de4fbb5e}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!content\+Panel@{content\+Panel}}
+\index{content\+Panel@{content\+Panel}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{content\+Panel}]{\setlength{\rightskip}{0pt plus 5cm}final J\+Panel content\+Panel = new J\+Panel()\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ac383c7b38c74b9e1cc245a00de4fbb5e}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ab0f8a5a46d90946fe20e323cbc10384f}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!font\+Family@{font\+Family}}
+\index{font\+Family@{font\+Family}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{font\+Family}]{\setlength{\rightskip}{0pt plus 5cm}String font\+Family = \char`\"{}Tahoma\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_ab0f8a5a46d90946fe20e323cbc10384f}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a78dc3704e7e01da52c9a93a70c5bc45d}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!font\+Size@{font\+Size}}
+\index{font\+Size@{font\+Size}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{font\+Size}]{\setlength{\rightskip}{0pt plus 5cm}int font\+Size = 14\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a78dc3704e7e01da52c9a93a70c5bc45d}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aec4029056965b8b1d9e30178aa258e71}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!font\+Style@{font\+Style}}
+\index{font\+Style@{font\+Style}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{font\+Style}]{\setlength{\rightskip}{0pt plus 5cm}int font\+Style = Font.\+B\+O\+L\+D\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_aec4029056965b8b1d9e30178aa258e71}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a90de2803c72845b70771d7326d038f45}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!layered\+Pane@{layered\+Pane}}
+\index{layered\+Pane@{layered\+Pane}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{layered\+Pane}]{\setlength{\rightskip}{0pt plus 5cm}J\+Layered\+Pane layered\+Pane\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a90de2803c72845b70771d7326d038f45}
+\hypertarget{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a97722586d2e85bb697b3512b1fcbf729}{\index{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}!lbl\+Current\+Note@{lbl\+Current\+Note}}
+\index{lbl\+Current\+Note@{lbl\+Current\+Note}!com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard@{com\+::lclion\+::midigui\+::\+Dialog\+On\+Screen\+Keyboard}}
+\subsubsection[{lbl\+Current\+Note}]{\setlength{\rightskip}{0pt plus 5cm}J\+Label lbl\+Current\+Note\hspace{0.3cm}{\ttfamily [private]}}}\label{classcom_1_1lclion_1_1midigui_1_1_dialog_on_screen_keyboard_a97722586d2e85bb697b3512b1fcbf729}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/com/lclion/midigui/\hyperlink{_dialog_on_screen_keyboard_8java}{Dialog\+On\+Screen\+Keyboard.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,6 @@
+<map id="deselectInstrumentMenu" name="deselectInstrumentMenu">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#ae7bd958cecc96a4e5d1ea09834b6d0ef" title="changeInstrument" alt="" coords="217,5,343,32"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a200519724ded34307a2e8c0cd6497a56" title="initMenuInstruments" alt="" coords="391,5,529,32"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#a0b0e9cd41d19d9cb52443c381a519994" title="Initialise Menu Bars related to this window. " alt="" coords="577,5,668,32"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midigui_1_1_j_frame_m_i_d_i_piano_sheet_creator.html#aa7344d98b77fcf456e4333719d4e4a34" title="JFrameMIDIPianoSheetCreator" alt="" coords="716,5,916,32"/>
+</map>

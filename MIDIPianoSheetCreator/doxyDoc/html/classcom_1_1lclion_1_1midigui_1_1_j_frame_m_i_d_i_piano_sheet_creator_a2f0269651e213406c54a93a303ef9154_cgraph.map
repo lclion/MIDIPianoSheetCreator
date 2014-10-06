@@ -1,0 +1,6 @@
+<map id="initButtonStop" name="initButtonStop">
+<area shape="rect" id="node2" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a43e0304f725fff9064639507536d7203" title="com.lclion.midiplayer.MIDIPlayer.stopMIDI" alt="" coords="157,5,424,32"/>
+<area shape="rect" id="node3" href="$classcom_1_1lclion_1_1midiplayer_1_1_m_i_d_i_player.html#a6f0d774251274a44de6466408b9d0193" title="com.lclion.midiplayer.MIDIPlayer.set\lInstrument" alt="" coords="174,57,407,98"/>
+<area shape="rect" id="node4" href="$classcom_1_1lclion_1_1midigui_1_1_dialog_track_import.html#a31f82d1e457f59ee2e2b76781cf77998" title="com.lclion.midigui.Dialog\lTrackImport.isColourise" alt="" coords="207,122,374,163"/>
+<area shape="rect" id="node5" href="$classcom_1_1lclion_1_1midiparser_1_1_note_colour_converter.html#a1182e71888040b74469d2a6329c0e363" title="com.lclion.midiparser.Note\lColourConverter.ColouriseNotes" alt="" coords="188,187,393,229"/>
+</map>
